@@ -4,261 +4,56 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>检测报告</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.0/normalize.css" />
-    <link rel="stylesheet" href="./styles/swiper.min.css">
-    <link rel="stylesheet" href="./styles/main.css">
-    <script>
-        ! function (e) {
-            function t(a) {
-                if (i[a]) return i[a].exports;
-                var n = i[a] = {
-                    exports: {},
-                    id: a,
-                    loaded: !1
-                };
-                return e[a].call(n.exports, n, n.exports, t), n.loaded = !0, n.exports
-            }
-            var i = {};
-            return t.m = e, t.c = i, t.p = "", t(0)
-        }([function (e, t) {
-            "use strict";
-            Object.defineProperty(t, "__esModule", {
-                value: !0
-            });
-            var i = window;
-            t["default"] = i.flex = function (normal, e, t) {
-                var a = e || 100,
-                    n = t || 1,
-                    r = i.document,
-                    o = navigator.userAgent,
-                    d = o.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i),
-                    l = o.match(/U3\/((\d+|\.){5,})/i),
-                    c = l && parseInt(l[1].split(".").join(""), 10) >= 80,
-                    p = navigator.appVersion.match(/(iphone|ipad|ipod)/gi),
-                    s = i.devicePixelRatio || 1;
-                p || d && d[1] > 534 || c || (s = 1);
-                var u = normal ? 1 : 1 / s,
-                    m = r.querySelector('meta[name="viewport"]');
-                m || (m = r.createElement("meta"), m.setAttribute("name", "viewport"), r.head.appendChild(m)),
-                    m.setAttribute("content", "width=device-width,user-scalable=no,initial-scale=" + u +
-                        ",maximum-scale=" + u + ",minimum-scale=" + u), r.documentElement.style.fontSize =
-                    normal ? "50px" : a / 2 * s * n + "px"
-            }, e.exports = t["default"]
-        }]);
-        flex(false, 100, 1);
-    </script>
+    <link rel="stylesheet" href="./styles/main.css?v=1.1">
+    <script src="./js/lib-flexible.js"></script>
 </head>
 
 <body>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div>只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。只有 Vue Router 2 是与 Vue 2 相互兼容的，所以如果你更新了 Vue ，你也需要更新 Vue Router 。这也是我们在主文档中将迁移路径的详情添加进来的原因。
-                    有关使用 Vue Router 2 的完整教程，请参阅 Vue Router 文档。</div>
-            </div>
-            <div class="swiper-slide">
-                <div>模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：
-
-                    <div id="example">
-                      {{ message.split('').reverse().join('') }}
-                    </div>
-                    在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 message 的翻转字符串。当你想要在模板中多次引用此处的翻转字符串时，就会更加难以处理。
-                    
-                    所以，对于任何复杂逻辑，你都应当使用计算属性。</div>
-            </div>
-            <div class="swiper-slide">
-                <div>
-                    <img src="./images/buildbk.jpg" style="width: 100%;">
+    <div class="basic-info">
+        <div class="uer-info">
+            <div class="name">
+                <div class="text">李四闲</div>
+                <div class="img">
+                    <!-- TODO: 切换男女性别 -->
+                    <!-- <img src="./images/people_man.png"> -->
+                    <img src="./images/people_women.png">
                 </div>
             </div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            <div class="swiper-slide">Slide 9</div>
-            <div class="swiper-slide">Slide 10</div>
+            <div class="birth">
+                <div class="label">出生日期：</div>
+                <div class="value">1980.06.12</div>
+            </div>
+            <div class="report-type">
+                <div class="label">标本类型：</div>
+                <div class="value">唾液</div>
+            </div>
+        </div>
+        <div class="report-info">
+            <div class="item">
+                <div class="left">
+                    <div class="label">检测方法：</div>
+                    <div class="value">基因分型</div>
+                </div>
+                <div class="right">
+                    <div class="label">标本收到日期：</div>
+                    <div class="value">2018.04.22</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="left">
+                    <div class="label">检测号码：</div>
+                    <div class="value">GWA9999999</div>
+                </div>
+                <div class="right">
+                    <div class="label">报告日期：</div>
+                    <div class="value">2018.06.12</div>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="./js/swiper.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper('.swiper-container');
-    </script>
 </body>
 
 </html>
