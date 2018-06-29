@@ -89,8 +89,5 @@
     setTimeout(function(){
       refreshRem(designWidth, rem2px);
     }, 1);
-    window.onresize=function(){
-        refreshRem(designWidth, rem2px);
-    }
   })(750, 100);
   
