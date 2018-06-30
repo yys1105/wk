@@ -10,7 +10,6 @@ body {
 }
 
 .basic-info{
-    width: 7.5rem;
     position: relative;
     background-image: url('../images/report_bg.png');
     background-repeat: no-repeat;
@@ -122,21 +121,7 @@ body {
     margin-top: .25rem;
     text-align: right;
 }
-.preface p{
-    margin: .14rem 0;
-    text-indent: .44rem;
-    line-height: .4rem;
-    font-size: .22rem;
-    color: #999;
-}
-.preface ul{
-    font-size: .22rem;
-    color: #999;
-    margin: .14rem 0;
-    line-height: .4rem;
-}
 .pra{
-    margin-top: .2rem;
     padding: .37rem .36rem;
     background-color: #fff;
 }
@@ -157,6 +142,10 @@ body {
     width: 100%;
     height: 100%;
 } 
+.pra .title .sub{
+    font-size: .2rem;
+    color:#999;
+}
 .pra p{
     margin: .14rem 0;
     text-indent: .44rem;
@@ -170,3 +159,43 @@ body {
     margin: .14rem 0;
     line-height: .4rem;
 }
+.disclaimer,.sense{
+    margin-top: .2rem;
+}
+.swiper-container{
+    width: 100%;
+    height: 3.95rem;
+}
+.swiper-wrapper{
+    padding: .2rem 0;
+}
+.swiper-slide {
+    background: #fff;
+    width: 4.76rem;
+    height: 3.55rem;
+    padding: .27rem .19rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 3px #f8f8f8;
+}
+.sense-item .title{
+    margin-bottom: .3rem;
+    display: flex;
+    align-items: center;
+    font-size: .24rem;
+    color: #479cfc;
+}
+.sense-item .title .icon{
+    width: .4rem;
+    height: .24rem;
+    margin-right: .1rem;
+    background-image: url('../images/science_count.png');
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    line-height: .24rem;
+    font-size: .16rem;
+} 
+.sense-item .title .icon>img{
+    width: 100%;
+    height: 100%;
+} 
