@@ -434,4 +434,42 @@ body {
 .links .classification .name{
     position: relative;
     font-size: .24rem;
+    color: #479cfc;
+    padding: 0 0 0 .15rem;
+}
+.links .classification .name::before{
+    content: "";
+    position: absolute;
+    top: .03rem;
+    left: 0;
+    width: .04rem;
+    height: .22rem;
+    background-color: #479cfc
+}
+.classification-wrap{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-bottom: .4rem;
+}
+.classification-wrap .item{
+    width: 50%;
+    height: .9rem;
+}
+.classification-wrap .item .content{
+    width: 3rem;
+    margin: .2rem auto;
+    padding: .15rem;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+.classification-wrap .item .mian{
+    text-align: center;
+    color: #212121;
+    font-size: .22rem;
+}
+.classification-wrap .item .sub{
+    text-align: center;
+    color: #999999;
+    font-size: .20rem;
 }
