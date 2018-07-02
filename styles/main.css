@@ -129,7 +129,7 @@ body {
     margin-bottom: .3rem;
     display: flex;
     align-items: center;
-    font-size: .28rem;
+    font-size: .32rem;
     color: #212121;
     position: relative;
 }
@@ -240,7 +240,7 @@ body {
     height: 100%;
 } 
 .sense-item p{
-    font-size: .22rem;
+    font-size: .24rem;
     line-height: .3rem;
 }
 .results table{
