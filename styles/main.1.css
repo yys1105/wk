@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    font-size: .28rem;
+    font-size: .24rem;
     background-color: #eef2f6;
 }
 
@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
     text-align: center;
     letter-spacing: .02rem;
-    font-size: .32rem;
+    font-size: .28rem;
     color: #fff;
     position: relative;
     line-height: .3rem;
@@ -111,12 +111,12 @@ body {
     background-color: #fff;
 }
 .preface .top{
-    font-size: .32rem;
+    font-size: .28rem;
     color: #212121;
     margin-bottom: .25rem;
 }
 .preface .bottom {
-    font-size: .28rem;
+    font-size: .24rem;
     color: #212121;
     margin-top: .25rem;
     text-align: right;
@@ -166,7 +166,7 @@ body {
     height: 100%;
 } 
 .pra ul,.pra ol{
-    font-size: .28rem;
+    font-size: .24rem;
     color: #909090;
     margin: .14rem 0;
     line-height: .4rem;
@@ -178,7 +178,7 @@ body {
     margin: .14rem 0;
     text-indent: .44rem;
     line-height: .4rem;
-    font-size: .28rem;
+    font-size: .24rem;
     color: #909090;
 }
 
@@ -204,7 +204,7 @@ body {
 }
 .swiper-container{
     width: 100%;
-    height: 4.55rem;
+    height: 3.95rem;
 }
 .swiper-wrapper{
     padding: .2rem 0;
@@ -212,7 +212,7 @@ body {
 .swiper-slide {
     background: #fff;
     width: 4.76rem;
-    height: 4.15rem;
+    height: 3.55rem;
     padding: .27rem .19rem;
     box-sizing: border-box;
     box-shadow: 0 0 12px 3px #f8f8f8;
@@ -221,7 +221,7 @@ body {
     margin-bottom: .2rem;
     display: flex;
     align-items: center;
-    font-size: .28rem;
+    font-size: .24rem;
     color: #479cfc;
 }
 .sense-item .title .icon{
@@ -241,16 +241,14 @@ body {
 } 
 .sense-item p{
     font-size: .24rem;
-    line-height: .32rem;
+    line-height: .3rem;
 }
 .results table{
     width: 100%;
     color: #909090;
     border-collapse:collapse;
-    font-size: .24rem;
 }
 .results table p{
-    font-size: .24rem;
     margin: 0;
     padding: 0;
     text-indent: 0;
@@ -267,7 +265,7 @@ body {
 }
 .results table tr td{
     text-align: center;
-    font-size: .24rem;
+    
     padding: .15rem 0;
 }
 .results .more{
@@ -326,8 +324,8 @@ body {
     margin-top: .28rem;
 }
 .evaluation .summary-text{
-    font-size: .28rem;
-    line-height: .4rem;
+    font-size: .24rem;
+    line-height: .3rem;
     color: #212121;
     margin: .4rem 0 .3rem 0;
 }
@@ -366,7 +364,6 @@ body {
 .risk table td,.risk table th,.diagnosis table td,.diagnosis table th{
     height: .58rem;
     text-align: center;
-    font-size: .24rem;
 }
 .risk table th,.diagnosis table th{
     background-color: #ecf4fe;
@@ -382,12 +379,10 @@ body {
 .diagnosis table.vertical tr td:nth-child(1){
     background-color: #ecf4fe;
     color: #479cfc;
-    font-size: .24rem;
-    font-weight: bold;
 }
 .literature{
     position: relative;
-    padding: .37rem .36rem .37rem 1.91rem;
+    padding: .37rem .36rem .37rem 1.71rem;
     background-color: #fff;
     min-height: .37rem;
 }
@@ -398,7 +393,7 @@ body {
     background-color: #ecf4fe;
     padding: .11rem;
     color: #479cfc;
-    font-size: .28rem;
+    font-size: .24rem;
 }
 .literature .content{
     background-color: #f7f7f7;
@@ -438,7 +433,7 @@ body {
 }
 .links .classification .name{
     position: relative;
-    font-size: .28rem;
+    font-size: .24rem;
     color: #479cfc;
     padding: 0 0 0 .15rem;
 }
@@ -462,7 +457,7 @@ body {
     height: .9rem;
 }
 .classification-wrap .item .content{
-    width: 3.2rem;
+    width: 3rem;
     margin: .2rem auto;
     padding: .15rem;
     box-sizing: border-box;
@@ -476,5 +471,5 @@ body {
 .classification-wrap .item .sub{
     text-align: center;
     color: #999999;
-    font-size: .24rem;
+    font-size: .20rem;
 }
