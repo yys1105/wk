@@ -1,4 +1,5 @@
 ## 线上地址：
+- 慢病：
 - [2型糖尿病易感基因](https://yys1105.github.io/wk/慢病/2型糖尿病易感基因.html)
 - [中风易感基因](https://yys1105.github.io/wk/慢病/中风易感基因.html)
 - [帕金森易感基因](https://yys1105.github.io/wk/慢病/帕金森易感基因.html)
@@ -9,7 +10,7 @@
 - [骨质疏松症易感基因](https://yys1105.github.io/wk/慢病/骨质疏松症易感基因.html)
 - [高血压易感基因](https://yys1105.github.io/wk/慢病/高血压易感基因.html)
 - [高血脂易感基因](https://yys1105.github.io/wk/慢病/高血脂易感基因.html)
-
+- 癌症：
 - [乳腺癌易感基因](https://yys1105.github.io/wk/癌症/乳腺癌易感基因.html)
 - [前列腺癌易感基因](https://yys1105.github.io/wk/癌症/前列腺癌易感基因.html)
 - [卵巢癌易感基因](https://yys1105.github.io/wk/癌症/卵巢癌易感基因.html)
@@ -26,3 +27,8 @@
 - [食管癌易感基因](https://yys1105.github.io/wk/癌症/食管癌易感基因.html)
 - [黑色素瘤易感基因](https://yys1105.github.io/wk/癌症/黑色素瘤易感基因.html)
 - [鼻咽癌易感基因](https://yys1105.github.io/wk/癌症/鼻咽癌易感基因.html)
+- 遗传：
+- [叶酸利用能力基因](https://yys1105.github.io/wk/遗传/叶酸利用能力基因.html)
+- [吸烟倾向基因](https://yys1105.github.io/wk/遗传/吸烟倾向基因.html)
+- [咖啡因代谢能力基因](https://yys1105.github.io/wk/遗传/咖啡因代谢能力基因.html)
+- [酒精代谢能力基因](https://yys1105.github.io/wk/遗传/酒精代谢能力基因.html)
