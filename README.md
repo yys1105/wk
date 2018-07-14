@@ -32,3 +32,9 @@
 - [吸烟倾向基因](https://yys1105.github.io/wk/遗传/吸烟倾向基因.html)
 - [咖啡因代谢能力基因](https://yys1105.github.io/wk/遗传/咖啡因代谢能力基因.html)
 - [酒精代谢能力基因](https://yys1105.github.io/wk/遗传/酒精代谢能力基因.html)
+- 安全用药:
+
+- [儿童安全用药产品](https://yys1105.github.io/wk/安全用药/儿童安全用药产品.html)
+- [心血管安全用药产品](https://yys1105.github.io/wk/安全用药/心血管安全用药产品.html)
+- [成人安全用药产品V6](https://yys1105.github.io/wk/安全用药/成人安全用药产品V6.html)
+- [糖尿病安全用药产品](https://yys1105.github.io/wk/安全用药/糖尿病安全用药产品.html)
