@@ -1,0 +1,2435 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>检测报告</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/swiper.css">
+    <link rel="stylesheet" href="./styles/main.css?v=1.2">
+    <script src="./js/lib-flexible.js"></script>
+    <script src="./js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="basic-info">
+        <div class="theme">
+            <div class="name">心血管安全用药产品</div>
+        </div>
+        <div class="uer-info">
+            <div class="name">
+                <div class="text">李四闲</div>
+                <div class="img">
+                    <!-- TODO: 切换男女性别 -->
+                    <!-- <img src="./images/people_man.png"> -->
+                    <img src="./images/people_women.png">
+                </div>
+            </div>
+            <div class="birth">
+                <div class="label">出生日期：</div>
+                <div class="value">1980.06.12</div>
+            </div>
+            <div class="report-type">
+                <div class="label">标本类型：</div>
+                <div class="value">唾液</div>
+            </div>
+        </div>
+        <div class="report-info">
+            <div class="item">
+                <div class="left">
+                    <div class="label">检测方法：</div>
+                    <div class="value">基因分型</div>
+                </div>
+                <div class="right">
+                    <div class="label">标本收到日期：</div>
+                    <div class="value">2018.04.22</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="left">
+                    <div class="label">检测号码：</div>
+                    <div class="value">GWA9999999</div>
+                </div>
+                <div class="right">
+                    <div class="label">报告日期：</div>
+                    <div class="value">2018.06.12</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="preface pra">
+        <div class="top">
+            尊敬的李四闲（女士）：
+        </div>
+        <p>您好！我们十分荣幸您选择为康基因公司进行本次基因检测服务！</p>
+        <p>我们很高兴为您提供此次检测的个性化基因检测报告，本检测对相关疾病的发生风险进行全面评估，由专业遗传学专家对您的疾病风险及生活习惯给予详细的解读和相应的健康指导，本次检测所涉及的DNA来自您最新提供的采集样本，检测内容有专业科学依据。本检测利用目前行业内先进的基因检测技术，准确获取相关位点基因型，从基因水平上对疾病的发生进行早期预测。</p>
+        <p>基于您的基因检测信息，我们提供个性化健康指导：</p>
+        <ul>
+            <li>疾病预测——在健康或亚健康时能准确预测患病易感风险；</li>
+            <li>疾病预防——主动调节外因（饮食/运动/生活习惯/环境），降低患病风险；</li>
+            <li>健康管理——优化常规检查方案，提供自身健康管理方案。</li>
+        </ul>
+        <p>根据世界卫生组织（WHO）报告，通过健康的生活方式，如戒烟、戒酒、运动和均衡饮食习惯以及有效运用当今的医疗手段（如定期筛检和早期检测），至少有50%以上的疾病是可以预防或避免的。针对相关疾病高风险的人群，我们会建议您加强对相关疾病的关注和认知，尽早开展相关健康检查，将患病风险控制在最低水平。</p>
+        <p>鉴于疾病发生机理的复杂性，当前医学对某些疾病的遗传基础认识的局限性及疾病的个体差异，我们不排除某些受检者有漏检的易感基因或致病变异位点。本检测报告仅供参考，不做临床诊断意见。</p>
+        <div class="bottom">为康(苏州) 基因科技有限公司</div>
+    </div>
+    <div class="disclaimer pra">
+        <div class="title">
+            <div class="icon">
+                <img src="./images/report_disclaimer.png">
+            </div>
+            <div class="main">免责申明：</div>
+        </div>
+        <p>一、鉴于基因的复杂性及科研水平局限性，本检测并不能检测所有突变位点并提供完整的遗传信息；</p>
+        <p>二、限于现在的临床及科研水平，不是所有与药物反应相关的基因都被临床发现或证实；</p>
+        <p>三、鉴于当前医学检测技术水平的限制和受检者个体差异等原因，单次检测的结果仍有可能出现小概率的假阳性或假阴性；</p>
+        <p>四、该检测服务仅为临床治疗提供参考，本检测的结果不是临床的诊断结果，并且不可将本检测的结果做为最终诊断的唯一依据；</p>
+        <p>五、本公司只对受检样本和检测结果的一致性负责，而不能对受检者和受检样本的一致性负责；</p>
+        <p>六、基因信息属于个人隐私，我们郑重承诺将妥善保管您的相关数据，未经您本人授权不会用于其他目的。</p>
+    </div>
+    <div class="sense pra">
+        <div class="title">
+            <div class="icon">
+                <img src="./images/science_knowledge.png">
+            </div>
+            <div class="main">科学常识：</div>
+            <div class="sub">了解以下科学常识，帮助您更好地解读报告</div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            1
+                        </div>
+                        <div>什么是基因？</div>
+                    </div>
+                    <p>基因（Gene）是具有遗传效应的 DNA 片段，是控制生物性状的基本遗传单位。染色体它主要通过调控或指导蛋白质的表达来控制生物个体的性状表现，比如人类的肤色、眼睛颜色、身高、体重等性状。生物体的生、老、病、死等一切生命现象都与基因有关，它也是决定生命健康的内在因素。</p>
+                </div>
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            2
+                        </div>
+                        <div>什么是单核苷酸多态性？</div>
+                    </div>
+                    <p>单核苷酸多态性（Single Nucleotide Polymorphism，SNP）主要是指在基因组水平上由单个核苷酸的变异所引起的 DNA 序列多态性。一般而言，SNP 变异频率大于1%。它是人类可遗传变异中最常见的一种。在人的基因组中不到1，000
+                        个碱基就有一个 SNP。有的人吸烟喝酒却长寿，有人自幼就病痛缠身，同一种治疗肿瘤的药物对一些人非常有效，对另一些人则完全无效，这些都与 SNP 有关。</p>
+                </div>
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            3
+                        </div>
+                        <div>什么是基因检测？</div>
+                    </div>
+                    <p>基因检测（ Genetic Testing ）是用特定设备对被检测者血液、其他体液或细胞的 DNA 分子信息做检测。基因检测可以用于疾病诊断，也可以用于疾病风险预测。疾病诊断是检测引起遗传性疾病的突变基因，目前应用最广泛的是新生儿遗传性疾病的检测和诊断以及某些常见病的辅助诊断。疾病风险预测是在疾病发生前就发现疾病发生的风险，可以采取有效的干预措施提早预防或延缓疾病的发生发展。</p>
+                </div>
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            4
+                        </div>
+                        <div>什么是基因突变？</div>
+                    </div>
+                    <p>基因突变（Gene Mutation）是基因组DNA分子发生的可遗传的变异现象。从分子水平上看，基因突变是指基因在结构上发生碱基的组成或排列顺序的改变，它包括单个碱基改变所引起的点突变，或多个碱基的插入、缺失、重复以及
+                        DNA 片段的倒置等。基因突变在人群中发生频率一般小于 1%。</p>
+                </div>
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            5
+                        </div>
+                        <div>药物代谢</div>
+                    </div>
+                    <p>药物代谢是研究药物在生物体内的吸收、分布、生物转化和排泄等过程的特点和规律的一门科学，即药物分子被机体吸收后，在机体作用下发生的化学结构转化药物的不同代谢类型关系到药物用药量的相应调整。</p>
+                </div>
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            6
+                        </div>
+                        <div>药物疗效</div>
+                    </div>
+                    <p>药物疗效是指药物的作用结果，有利于改善病人的生理生化功能或病理过程，使患病的机体恢复正常，疗效高指改善生理生化效果好，疗效低指改善生理生化功能效果不好。</p>
+                </div>
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            7
+                        </div>
+                        <div>药物不良反应</div>
+                    </div>
+                    <p>据世界卫生组织（WHO）报道，在全球范围内有50%以上的药物使用不当，半数的患者不能正确服药。我国卫生部药物不良反应监测中心数据显示，我国每年 5000万人住院，因药物不良反应住院的病人达250万，其中严重不良反应人数达50万，而因药物不良反应死亡的人数达19.2万，占总住院人数的0.38%。
+                    </p>
+                </div>
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            8
+                        </div>
+                        <div>个体化用药 </div>
+                    </div>
+                    <p>个体化用药，就是药物治疗“因人而异”、“量体裁衣”，在充分考虑每个病人 的遗传因素（即药物代谢基因类型）、性别、年龄、体重、生理病理特征以及正在服用的其它药物等综合情况的基础上制定安全、合理、有效、经济的药物治疗方案。</p>
+                </div>
+                <div class="swiper-slide sense-item">
+                    <div class="title">
+                        <div class="icon">
+                            9
+                        </div>
+                        <div>心血管疾病个体化用药</div>
+                    </div>
+                    <p>高血压、高血脂的发生与多种基因表型相关，基因表型不同，降压药物的治疗效果就存在显著差异，如血管紧张素原基因多态性与阿替洛尔的降压疗效相异。这便是药物个体差异，因此高血压患者可以根据检测结果而进行针对性的用药，达到高效、低毒、经济的治疗目的，从而有效地控制血压，防止并发症的到来，提高自身健康水平。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="results pra">
+        <div class="title-1">阿替洛尔疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">益康瑞欣 ® 阿替洛尔注射液、天津市中央药业阿替洛尔片和 Gempharm ® 卡 Atenolol tablets 等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">各种原因所致的中、轻度高血压病，包括老年高血压病和妊娠期高血压。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">阿替洛尔是受体阻滞剂的一种，为长效、选择性 1 受体阻断药。在高血压、心绞痛、急性心肌梗死和心肌梗死的预防中有重要的价值。您使用阿替洛尔在治疗心肌梗死和血压中疗效好。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">阿替洛尔为心脏选择性 受体阻断剂，可以阻断肾上腺素受体 亚型。ADRB1 基因编码肾上腺素受体 1 亚型，ADRB1 基因发生变异之后，肾上腺素受体 1 亚型功能发生改变，导致肾上腺素受体 1 亚型对阿替洛尔的敏感性升高，阿替洛尔阻断肾上腺素受体
+                1 亚型的能力就上升，对血管扩张作用增强，从而使其抗高血压的效果上升。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">阿替洛尔为心脏选择性受体阻断剂，主要用于治疗高血压、心绞痛、心肌梗死，也可用于心律失常等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">阿替洛尔为心脏选择性受体阻断剂，主要用于治疗高血压、心绞痛、心肌梗死，也可用于心律失常等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK1801253</td>
+                <td>ADRB1</td>
+                <td>G</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Sofowora GG, Dishy V, Muszkat M, Xie HG, Kim RB, Harris PA, et al. A common beta1-adrenergic receptor
+                            polymorphism (Arg389Gly) affects blood pressure response to beta-blockade.Clinical pharmacology
+                            and therapeutics. 2003;73(4):366-71.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">美托洛尔敏感性</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">克尼安 ® 酒石酸美托洛尔注射液，唐氏 ® 酒石酸美托洛尔片、倍他乐克 ® 酒石酸美托洛尔缓释片和百路达 ® 酒石酸美托洛尔片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">各型高血压（可与利尿药和血管扩张剂合用）及心绞痛。静脉注射对心律失常、特别是室上性心律失常也有效。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">肾上腺素受体 (ADRB1) 是 1 肾上腺受体阻滞剂类药物的作用靶点。这个基因存在多态性，此多态性影响 1 肾上腺受体的降压作用。您使用 1 受体阻滞剂美托洛尔敏感度正常，敏感性正常则效果相对正常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">美托洛尔 、 受体阻断剂，可以阻断肾上腺素受体 亚型。ADRB1 基因编码肾上腺素受体 1 亚型，ADRB1 基因发生变异之后，肾上腺素受体 1 亚型功能发生改变，导致肾上腺素受体 1 亚型对美托洛尔的敏感性改变，美托洛尔阻断肾上腺素受体
+                1 亚型的能力发生改变，对血管扩张作用发生变化，从而使其抗高血压的效果产生变化。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">美托洛尔，用于治疗各型高血压（可与利尿药和血管扩张剂合用）及心绞痛。静脉注射对心律失常、特别是室上性心律失常也有效。美托洛尔作用与阿替洛尔相似，对 1 受体有选择性阻断作用，对 2 受体阻断作用很弱。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">美托洛尔，用于治疗各型高血压（可与利尿药和血管扩张剂合用）及心绞痛。静脉注射对心律失常、特别是室上性心律失常也有效。美托洛尔作用与阿替洛尔相似，对 1 受体有选择性阻断作用，对 2 受体阻断作用很弱。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK1801252</td>
+                <td>ADRB1</td>
+                <td>A</td>
+                <td>G</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK1801253</td>
+                <td>ADRB1</td>
+                <td>G</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Liu J, Liu ZQ, Tan ZR, Chen XP, Wang LS, Zhou G, et al. Gly389Arg polymor-phism of beta1-adrenergic
+                            receptor is associated with the cardiovascular response to metoprolol. Clinical pharmacology
+                            and therapeutics. 2003;74(4):372-9.</li>
+                        <li>Moyana TN, Shukoor S. Gastrointestinal endocrine cell hyperplasia in celiac dis-ease: a selective
+                            proliferative process of serotonergic cells. Modern pathology : an official journal of the United
+                            States and Canadian Academy of Pathology, Inc. 1991;4(4):419-23.</li>
+                        <li>Johnson JA, Zineh I, Puckett BJ, McGorray SP, Yarandi HN, Pauly DF. Beta 1-adrenergic receptor polymorphisms
+                            and antihypertensive response to metoprolol. Clinical pharmacology and therapeutics. 2003;74(1):44-52.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">β 受体阻滞剂对心力衰竭患者疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">阿替洛尔、比索洛尔、卡维地洛、美托洛儿、吲哚洛儿等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">高血压、心力衰竭、心绞痛、心律失常等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">受体阻滞剂，为长效、选择性 1 受体阻断药，在高血压、心绞痛、急性心肌梗死和心肌梗死的预防中有重要的价值。您若使用 受体阻滞剂，在缓解急性心肌梗塞的相关症状时表现较出色，并且可有效改善心脏功能。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">受体阻断剂，可以阻断肾上腺素受体亚型。GRK5 基因编码 G 蛋白偶联受体激5，是一类重要的细胞膜表面受体超家族，与激素、神经递质、气味及其它小分子结合激活，介导多种配体信号，调节广泛的生理功能和药物作用。G 蛋白偶联受体激(GRK)
+                是负反馈调节 GPCR 的一类关键的丝苏氨酸激酶。GRK5 受上游信号刺激上膜，能抑制血管内皮细胞 RhoA 过度活性，从而促进血管新生。交感神经兴奋性增强是心力衰竭时机体的重要适应机制之一。但持续、过度的交感神经系统激活对心脏、肾脏和血管功能产生不利的影响，是心力衰竭发生发展的重要机制。GRK5
+                基因突变会影响 受体阻断剂对心力衰竭患者的生存。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">受体阻滞剂 (如卡维地洛，美托洛尔等) 是治疗慢性心力衰竭 (Congestive Heart Failure, CHF) 的标准用药。当发生慢性心力衰竭时，多种内源性神经内分泌因子和细胞因子处于激活状态，这些因子促进左心室重构，加重心肌损伤和心功能恶化，也使心肌能量产生和利用发生障碍。受体阻滞剂可作用于肾上腺素受体并下调儿茶酚胺类激素
+                (肾上腺素和去甲肾上腺素)，逆转左心室重构，改善心肌能量代谢和心脏功能。研究表明，某些遗传变异可影响肾上腺素的信号，进而影响使用受体阻滞剂治疗的心力衰竭患者的预后。
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">受体阻滞剂 (如卡维地洛，美托洛尔等) 是治疗慢性心力衰竭 (Congestive Heart Failure, CHF) 的标准用药。当发生慢性心力衰竭时，多种内源性神经内分泌因子和细胞因子处于激活状态，这些因子促进左心室重构，加重心肌损伤和心功能恶化，也使心肌能量产生和利用发生障碍。受体阻滞剂可作用于肾上腺素受体并下调儿茶酚胺类激素
+                (肾上腺素和去甲肾上腺素)，逆转左心室重构，改善心肌能量代谢和心脏功能。研究表明，某些遗传变异可影响肾上腺素的信号，进而影响使用受体阻滞剂治疗的心力衰竭患者的预后。
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK17098707</td>
+                <td>GRK5</td>
+                <td>A</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Liggett SB, Cresci S, Kelly RJ, Syed FM, Matkovich SJ, Hahn HS, et al. A GRK5 polymorphism that inhibits
+                            beta-adrenergic receptor signaling is protective in heart failure. Nature medicine. 2008;14(5):510-7.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">卡维地洛疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">金络 ® 卡维地洛片、络得 ® 卡维地洛片、康达欣 ® 卡维地洛片和达利全 ® 卡维地洛片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">轻度及中度高血压或伴有肾功能不全、糖尿病的高血压。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">卡维地洛有较强的心脏和神经保护作用：与一般的 受体拮抗剂不同，高血压患者长期服用本品，不仅能扩张冠状动脉及肾血管，降低外周血管阻力，而且能降低体循环和肺循环阻力，有效地控制高血压。您若使用卡维地洛治疗高血压，效果可能较好。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">卡维地洛为 、受体阻断剂，可以阻断肾上腺素受体 亚型。ADRB1 基因编码肾上腺素受体 1 亚型，ADRB1 基因发生变异之后，肾上腺素受体 1 亚型功能发生改变，导致肾上腺素受体 1 亚型对卡维地洛的敏感性升高，卡维地洛阻断肾上腺素受体
+                1亚型的能力就上升，对血管扩张作用增强，从而使其抗高血压的效果上升。
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">卡维地洛为 、 受体阻断剂，可以阻断肾上腺素受体 亚型，主要用于治疗高血压及充血性心率衰竭。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">卡维地洛为 、 受体阻断剂，可以阻断肾上腺素受体 亚型，主要用于治疗高血压及充血性心率衰竭。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK1801253</td>
+                <td>ADRB1</td>
+                <td>G</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Parvez B, Chopra N, Rowan S, Vaglio JC, Muhammad R, Roden DM, et al. A common beta1-adrenergic receptor
+                            polymorphism predicts favorable response to rate-control therapy in atrial fibrillation. Journal
+                            of the American College of Cardiol-ogy. 2012;59(1):49-56.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">氯沙坦代谢</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">科素亚 ® 氯沙坦钾片、奈迪亚 ® 氯沙坦钾氢氯噻嗪片、缓宁 ® 氯沙坦钾片、倍怡 ® 氯沙坦钾片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">高血压合并有心力衰竭、糖尿病或慢性肾脏疾病的患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">氯沙坦是一种血管紧张素 II 受体拮抗剂，可强力和持续性地降低血压，使收缩压和舒张压均下降。适用于高血压、并可用于预防脑卒中、高血压合并性糖尿病肾病。您服用氯沙坦后，其在体内转化为活性状态的利用率较低，所以遵医嘱使用正常剂量的氯沙坦。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">氯沙坦本身具有一定的活性，其经过肝脏内 CYP2C9 酶代谢为 E3174，其活性是氯沙坦的 10-40 倍。该基因发生变异后，酶活性发生改变，代谢生成的 E3174 的速度发生改变，从而影响氯沙坦的剂量和疗效。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是一种血管紧张素 II 受体拮抗剂，是抗高血压治疗的一线用药，又称为科素亚、洛沙坦或络沙坦。血管紧张素 II 受体拮抗剂适用于高血压合并有心力衰竭、糖尿病或慢性肾脏疾病的患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是一种血管紧张素 II 受体拮抗剂，是抗高血压治疗的一线用药，又称为科素亚、洛沙坦或络沙坦。血管紧张素 II 受体拮抗剂适用于高血压合并有心力衰竭、糖尿病或慢性肾脏疾病的患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK1799853</td>
+                <td>CYP2C9*2</td>
+                <td>C</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK1057910</td>
+                <td>CYP2C9*3</td>
+                <td>A</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Yasar U, Tybring G, Hidestrand M, Oscarson M, Ingelman-Sundberg M, Dahl ML, et al. Role of CYP2C9
+                            polymorphism in losartan oxidation. Drug metabolism and disposition: the biological fate of chemicals.
+                            2001;29(7):1051-6.
+                        </li>
+                        <li>Wennerholm A, Dandara C, Sayi J, Svensson JO, Abdi YA, Ingelman-Sundberg M, et al. The African-specific
+                            CYP2D617 allele encodes an enzyme with changed substrate specificity. Clinical pharmacology and
+                            therapeutics. 2002;71(1):77-88.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">氯沙坦敏感性</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">科素亚 ® 氯沙坦钾片、奈迪亚 ® 氯沙坦钾氢氯噻嗪片、缓宁 ® 氯沙坦钾片、倍怡 ®氯沙坦钾片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">高血压合并有心力衰竭、糖尿病或慢性肾脏疾病的患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">血管紧张素 II 受体由 AGTR1 基因编码，该基因发生变异后使该受体靶点敏感性发生改变会影响药物疗效。您的氯沙坦敏感性正常，其药物预期疗效正常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">AGTR1 基因编码血管紧张素 II（AngII）受体，该基因发生变异后使该受体功能发生改变不能有效感应来自血管紧张素 II 受体拮抗剂氯沙坦的抑制作用，使得疗效变差。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是一种血管紧张素 II 受体拮抗剂，是抗高血压治疗的一线用药，又称为科素亚、洛沙坦或络沙坦。血管紧张素 II 受体拮抗剂适用于高血压合并有心力衰竭、糖尿病或慢性肾脏疾病的患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是一种血管紧张素 II 受体拮抗剂，是抗高血压治疗的一线用药，又称为科素亚、洛沙坦或络沙坦。血管紧张素 II 受体拮抗剂适用于高血压合并有心力衰竭、糖尿病或慢性肾脏疾病的患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK5186</td>
+                <td>AGTR1</td>
+                <td>A</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Sookoian S, Castano G, Garcia SI, Viudez P, Gonzalez C, Pirola CJ. A1166C angiotensin II type 1 receptor
+                            gene polymorphism may predict hemodynamic response to losartan in patients with cirrhosis and
+                            portal hypertension. The American journal of gastroenterology. 2005;100(3):636-42.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">血管紧张素受体 II 阻滞剂毒副作用</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">洛沙坦、缬沙坦、厄贝沙坦、奥美沙坦和坎地沙坦等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">高血压、预防脑卒中、心力衰竭、急性心肌梗死后、糖尿病肾病、心血管病高危患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">血管紧张素受体 II 阻滞剂可用于有心力衰竭、糖尿病或慢性肾病的高血压患者。可遵医嘱正常使用血管紧张素受体 II 阻滞剂。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">血管紧张素 II（AngII）通过血管紧张素 II（AngII）受体起到扩张血管作用。血管紧张素 II 受体拮抗剂，通过抑制血管紧张素 II 受体起到扩张血管的作用。CYP2C9 基因编码 CYP450 家族的 CYP2C9
+                酶，参与血管紧张素 II 受体拮抗剂在体内的代谢。CYP2C9 基因发生变异后，酶活性发生改变，代谢血管紧张素 II受体拮抗剂的速度发生改变导致血管紧张素 II 受体拮抗剂在体内的集聚，从而出现胃肠道出血副作用。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是抗高血压治疗的一线药物之一，适用于高血压、预防脑卒中、心力衰竭、急性心肌梗死后、糖尿病肾病、心血管病高危患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是抗高血压治疗的一线药物之一，适用于高血压、预防脑卒中、心力衰竭、急性心肌梗死后、糖尿病肾病、心血管病高危患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK1799853</td>
+                <td>CYP2C9</td>
+                <td>C</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK1057910</td>
+                <td>CYP2C9*3</td>
+                <td>A</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Martinez C, Blanco G, Ladero JM, Garcia-Martin E, Taxonera C, Gamito FG, et al.Genetic predisposition
+                            to acute gastrointestinal bleeding after NSAIDs use. Britishjournal of pharmacology. 2004;141(2):205-8.</li>
+                        <li>Pilotto A, Seripa D, Franceschi M, Scarcelli C, Colaizzo D, Grandone E, et al. Genetic susceptibility
+                            to nonsteroidal anti-inflammatory drug-related gastroduode-nal bleeding: role of cytochrome P450
+                            2C9 polymorphisms. Gastroenterology. 2007;133(2):465-71.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">雷米普利疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">瑞泰 ® 雷米普利片、瑞素坦 ® 雷米普利片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">高血压、心肌梗死后心力衰竭、冠心病高危患者包括糖尿病患者、心血管疾病高危患者的二级预防等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">雷米普利是一个前体药物，从胃肠道吸收后在肝脏水解生成有活性的血管紧张素转化 酶 (ACE) 抑制剂雷米普利拉，是强效和长时间作用的 ACE 抑制剂。ACE 基因编码的血管紧张素转换酶是一种非特异性的酶，可以使血管紧张素
+                I 转化为血管紧张素 II，雷米普利还可以通过干扰缓激肽的降解而扩张外周血管，产生降压效应。ACE 基因的多态性影响血管紧张素转换酶的活性，从而影响降压效果。您的雷米普利治疗高血压疗效正常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">ACE 基因编码的血管紧张素转换酶是一种非特异性的酶，可以使血管紧张素 I 转化为血管紧张素 II，还能催化缓释肽、P 物质等肽类物质的降解。肾素—血管紧张素—醛固酮系统 (RAS) 在高血压发生、发展中起重要作用，其中血管紧张素
+                II 是主要的效应肽。雷米普利的活性代谢产物雷米普拉通过阻碍血管紧张素 I 转换为血管紧张素 II，从而降低外周血阻力，产生降压效应。ACE 基因的多态性影响血管紧张素转换酶的活性，从而影响降压效果。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是一种血管紧张素转换酶抑制剂 (ACEI)，在体内水解成有活性的代谢产物雷米普拉而起作用。适应症为高血压、心肌梗死后心力衰竭、冠心病高危患者包括糖尿病患者、心血管疾病高危患者的二级预防等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是一种血管紧张素转换酶抑制剂 (ACEI)，在体内水解成有活性的代谢产物雷米普拉而起作用。适应症为高血压、心肌梗死后心力衰竭、冠心病高危患者包括糖尿病患者、心血管疾病高危患者的二级预防等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK4344</td>
+                <td>ACE</td>
+                <td>G</td>
+                <td>A</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Bhatnagar V, O’Connor DT, Schork NJ, Salem RM, Nievergelt CM, Rana BK, et al. Angiotensin-converting
+                            enzyme gene polymorphism predicts the time-course of blood pressure response to angiotensin converting
+                            enzyme inhibition in the AASK trial. Journal of hypertension. 2007;25(10):2082-92.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">卡托普利疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">特一 ® 卡托普利片、常药 ® 卡托普利片、开博通 ® 卡托普利片、黄海制药 ® 卡托普利片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">高血压、心力衰竭、心肌梗死后、冠心病高危患者、糖尿病肾病。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">卡托普利是第一代血管紧张素转化酶抑制药，在体内以高度亲和力可逆性地结合到转换酶的活性中心，使之不能将血管紧张素 I 转换为血管紧张素 II，而抑制肾素-血管紧张素-醛固酮系统。ACE 基因的多态性影响血管紧张素转换酶的活性，从而影响降压效果。您使用卡托普利治疗高血压等疾病的疗效正常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">ACE 基因编码的血管紧张素转换酶是一种非特异性的酶，可以使血管紧张素 I 转化为血管紧张素 II，还能催化缓释肽、P 物质等肽类物质的降解。肾素—血管紧张素—醛固酮系统 (RAS) 在高血压发生、发展中起重要作用，其中血管紧张素
+                II 是主要的效应肽。卡托普利阻碍血管紧张素 I 转换为血管紧张素 II，从而降低外周血阻力，并通过醛固酮分泌，减少水钠潴留。卡托普利还可以通过干扰缓激肽的降解而扩张外周血管，产生降压效应。ACE 基因的多态性影响血管紧张素转换酶的活性，从而影响降压效果。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是血管紧张素转换酶抑制剂 (ACEI)，是第一个投入临床使用的 ACEI，在高血压、心力衰竭、心肌梗死、糖尿病肾病等领域中都进行过大规模随机临床试验，证实能降低这些疾病患者的死亡率和主要心血管病终点事件。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是血管紧张素转换酶抑制剂 (ACEI)，是第一个投入临床使用的 ACEI，在高血压、心力衰竭、心肌梗死、糖尿病肾病等领域中都进行过大规模随机临床试验，证实能降低这些疾病患者的死亡率和主要心血管病终点事件。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK0000101</td>
+                <td>ACE</td>
+                <td>-</td>
+                <td>ATACAG</td>
+                <td>-/-</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>O’Toole L, Stewart M, Padfield P, Channer K. Effect of the insertion/deletion polymorphism of the
+                            angiotensin-converting enzyme gene on response to angiotensin-converting enzyme inhibitors in
+                            patients with heart failure. Journal of cardiovascular pharmacology. 1998;32(6):988-94.</li>
+                        <li>Mizuiri S, Hemmi H, Inoue A, Takano M, Kadomatsu S, Tanimoto H, et al. Renal hemodynamic changes
+                            induced by captopril and angiotensin-converting enzymegene polymorphism. Nephron. 1997;75(3):310-4.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">培哚普利稳定性冠心病疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">雅施达 ® 培哚普利片、逸泰 ® 培哚普利片、百普乐 ® 培哚普利片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">高血压、慢性冠心病、心力衰竭等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">培哚普利为第三代血管紧张素转换酶抑制剂，服后 6 小时降压效果最大，作用持续时间长，培垛普利可扩张大、小动脉，减少血容量，降低系统血管阻力、左室充盈压和肺毛细血管楔压，增加心排血量和每搏输出量，增加心脏指数而不改变心率，提高患者运动耐量，减轻左室心肌肥厚，改善血流动力学。您使用培哚普利
+                (ACE 抑制剂) 治疗稳定性冠心病正常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">1. AGTR1 基因编码血管紧张素 II（AngII）受体，该基因发生变异后使该受体功能发生改变，不能有效感应来自血管紧张素转换酶抑制剂的抑制作用，使得疗效变差。ACE 具有激肽酶 II 的活性，ACE 受到抑制后组织中缓激肽降解减少，局部浓度升高，从而产生扩张血管的作用。
+                <br>2. BDKRB1 基因发生变异之后，缓激肽受体 B1 功能发生改变，不再能接收来自缓释肽的感应，从而使得血管紧张素转换酶抑制剂不再能起到扩张血管的作用。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是血管紧张素转换酶 (Angiotensin Converting Enzyme, ACE) 抑制剂，可被用于治疗高血压、稳定性冠状动脉疾病、心肌梗死以及心力衰竭。ACE 是一种锌金属蛋白酶，它在血管紧张素 II
+                (可以引起血管收缩、血栓形成、炎症和不稳定斑块等) 的生成过程中起重要作用。血管紧张素 II 是肾素血管紧张素醛固酮系统中的影响血压的主要因素。同时 ACE 可以催化缓激肽 (发挥保护心血管系统的作用) 的降解，使之成为无活性成分。而
+                ACE 抑制剂通过抑制 ACE，防止小动脉血管收缩，促进血管扩张。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是血管紧张素转换酶 (Angiotensin Converting Enzyme, ACE) 抑制剂，可被用于治疗高血压、稳定性冠状动脉疾病、心肌梗死以及心力衰竭。ACE 是一种锌金属蛋白酶，它在血管紧张素 II
+                (可以引起血管收缩、血栓形成、炎症和不稳定斑块等) 的生成过程中起重要作用。血管紧张素 II 是肾素血管紧张素醛固酮系统中的影响血压的主要因素。同时 ACE 可以催化缓激肽 (发挥保护心血管系统的作用) 的降解，使之成为无活性成分。而
+                ACE 抑制剂通过抑制 ACE，防止小动脉血管收缩，促进血管扩张。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK275651</td>
+                <td>AGTR1</td>
+                <td>A</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK5182</td>
+                <td>AGTR1</td>
+                <td>C</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK12050217</td>
+                <td>BDKRB1</td>
+                <td>A</td>
+                <td>G</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Brugts JJ, Isaacs A, Boersma E, van Duijn CM, Uitterlinden AG, Remme W, et al. Genetic determinants
+                            of treatment benefit of the angiotensin-converting enzyme-inhibitor perindopril in patients with
+                            stable coronary artery disease. European heart journal. 2010;31(15):1854-64.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">氢氯噻嗪疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">常药 ® 氢氯噻嗪片、信谊 ® 氢氯噻嗪片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">充血性心力衰竭、慢性肾病、高血压等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">氢氯噻嗪是中效利尿剂，具有利尿作用、降压作用，用于治疗充血性心力衰竭、慢性肾病、高血压等。ACE 基因的多态性影响血管紧张素转换酶的活性，通过影响醛固酮对钠离子的调节从而影响降压效果。您的氢氯噻嗪疗效可能较好。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">基因编码的血管紧张素转换酶是一种非特异性的酶，肾素—血管紧张素—醛固酮系统 (RAS) 中的重要组成部分，可以使血管紧张素 I 转化为血管紧张素 II。血管紧张素 II 刺激醛固酮合成，醛固酮通过保钠排钾调节水盐代谢，继而影响血压调节。研究表明，氢氯噻嗪通过增加钠离子从要重排泄来起到降压作用。ACE
+                基因的多态性影响血管紧张素转换酶的活性，通过影响醛固酮对钠离子的调节从而影响降压效果。
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是中效利尿剂，具有利尿作用、降压作用，用于治疗充血性心力衰竭、慢性肾病、高血压等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">本品是中效利尿剂，具有利尿作用、降压作用，用于治疗充血性心力衰竭、慢性肾病、高血压等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK0000101</td>
+                <td>ACE</td>
+                <td>-</td>
+                <td>ATACAG</td>
+                <td>-/-</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Li Y, Zhou Y, Yang P, Niu JQ, Wu Y, Zhao DD, et al.Interaction of ACE and CYP11B2 genes on blood
+                            pressure response to hydrochlorothiazide in Han Chinese hypertensive patients. Clinical and experimental
+                            hypertension (New York, NY: 1993). 2011;33(3):141-6.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">维拉帕米和阿替洛尔疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">信谊 ® 盐酸维拉帕米片、华南牌 ® 盐酸维拉帕米片、益康瑞欣 ® 阿替洛尔注射液、天津市中央药业阿替洛尔片和 Gempharm ® 卡 Atenolol tablets 等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">维拉帕米：心律失常、心绞痛、高血压、肥厚性心肌病等；阿替洛尔：高血压、心绞痛、心肌梗死，也可用于心律失常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">维拉帕米为钙离子通道阻滞剂，它可以通过抑制血管平滑肌细胞钙离子内流，使血管平滑肌细胞松弛，血管阻力下降，因而它有降压作用。阿替洛尔为心脏选择性受体阻断剂，可以阻断肾上腺素受体亚型。主要用于治疗高血压、心绞痛、心肌梗死，也可用于心律失常等。您使用维拉帕米和阿替洛尔降压效果相似，两种药物都可以。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">维拉帕米为钙离子通道阻滞剂，它可以通过抑制血管平滑肌细胞钙离子内流，使血管平滑肌细胞松弛，血管阻力下降，因而它有降压作用。阿替洛尔为心脏选择性 受体阻断剂，可以阻断肾上腺素受体 亚型。主要用于治疗高血压、心绞痛、心肌梗死，也可用于心律失常等。CACNA1C
+                基因编码的 L-型钙离子通道的 1C 亚基对于由细胞兴奋收缩偶联和动作电位所介导的心肌及血管平滑肌的收缩和舒张具有关键性的作用。研究表明，CACNA1C 基因的多态性影响降压药物的疗效。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">维拉帕米为钙离子通道阻滞剂，它可以通过抑制血管平滑肌细胞钙离子内流，使血管平滑肌细胞松弛，血管阻力下降，因而它有降压作用。阿替洛尔为心脏选择性 受体阻断剂，可以阻断肾上腺素受体 亚型。主要用于治疗高血压、心绞痛、心肌梗死，也可用于心律失常等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">维拉帕米为钙离子通道阻滞剂，它可以通过抑制血管平滑肌细胞钙离子内流，使血管平滑肌细胞松弛，血管阻力下降，因而它有降压作用。阿替洛尔为心脏选择性 受体阻断剂，可以阻断肾上腺素受体 亚型。主要用于治疗高血压、心绞痛、心肌梗死，也可用于心律失常等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK1051375</td>
+                <td>CACNA1C</td>
+                <td>G</td>
+                <td>A</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Beitelshees AL, Navare H, Wang D, Gong Y, Wessel J, Moss JI, et al. CACNA1C gene polymorphisms, cardiovascular
+                            disease outcomes, and treatment response. Circulation Cardiovascular genetics. 2009;2(4):362-70.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">叶酸治疗高同型半胱氨酸血症疗效</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">度太 ® 叶酸片、创盈 ® 叶酸片、常药 ® 叶酸片等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">高同型半胱氨酸</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">您使用叶酸治疗高同型半胱氨酸血症的效果好。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">1. MTHFR 基因的多态性，导致二甲基四氢叶酸还原酶的活性降低，造成体内 5-甲基四氢叶酸水平偏低以及同型半胱氨酸的堆积，引起高同型半胱氨酸血症，适量补充 5-甲基四氢叶酸能缓解二甲基四氢叶酸还原酶的活性降低造成的同型半胱氨酸水平较高的症状。
+                <br>2. MTRR 基因的多态性也会降低半胱氨酸转化成为甲硫氨酸的效率，从而造成体内同型半胱氨酸的堆积。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">叶酸，又名维生素 B9 或 Bc，在蛋白代谢和 DNA 修复中有一定的作用。叶酸、维生 素 B12 和相关代谢酶等物质参与同型半胱氨酸的体内代谢。半胱氨酸水平高于正常值 15 mol/L，称之为高同型半胱氨酸血症，会引起血管内皮功能损伤，形成血栓，造成动脉粥样硬化，是引发心血管疾病的危险因子。临床上可以使用叶酸治疗高半胱氨酸血症。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">叶酸，又名维生素 B9 或 Bc，在蛋白代谢和 DNA 修复中有一定的作用。叶酸、维生 素 B12 和相关代谢酶等物质参与同型半胱氨酸的体内代谢。半胱氨酸水平高于正常值 15 mol/L，称之为高同型半胱氨酸血症，会引起血管内皮功能损伤，形成血栓，造成动脉粥样硬化，是引发心血管疾病的危险因子。临床上可以使用叶酸治疗高半胱氨酸血症。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK1801133</td>
+                <td>MTHFR</td>
+                <td>C</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK1801131</td>
+                <td>MTHFR</td>
+                <td>A</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK1801394</td>
+                <td>MTRR</td>
+                <td>A</td>
+                <td>G</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK1805087</td>
+                <td>MTR</td>
+                <td>A</td>
+                <td>G</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Li WX, Dai SX, Zheng JJ, Liu JQ, Huang JF. Homocysteine Metabolism Gene Poly morphisms (MTHFR C677T,
+                            MTHFR A1298C, MTR A2756G and MTRR A66G) Jointly Elevate the Risk of Folate Deficiency. Nutrients.
+                            2015;7(8):6670-87.
+                        </li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">氯吡格雷，抗血小板聚集药物</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">氯吡格雷, 赛洛菲的波立维 ®、深圳信立泰的泰嘉 ®</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">用于预防和治疗因血小板高聚集引起的心、脑及其他动脉循环障碍疾病,如近期发作的脑卒中、心肌梗死和确诊的外周动脉疾病。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">氯吡格雷使用正常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">1. 氯吡格雷确认是前体药物，需要经过CYP2C19酶的活化后才能产生抗血小板功能。
+                <br>2.氯吡格雷抵抗（clopidogrel resistance,CR）：大约5-35%患者对氯吡格雷治疗无反应或低反应，导致严重支架内血栓形成或再发心肌梗死。临床血小板反应存在多样性与CYP2C19基因相关，使用氯吡格雷时，CYP2C19基因型可以考虑作为血栓风险因子之一。CYP2C19(*2,
+                *3, *4, or *5)携带其中任何二个等位基因个体，比非携带者风险增加3.58倍</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">氯吡格雷是一种新型噻吩吡啶类衍生物，口服后，经十二指肠部位吸收。多重耐药基因MDRI（mutidurgre-sistance）或三磷酸腺苷结合盒蛋白B家族成员I（ABCBI）编码的P-糖蛋白（P-gp）是氯吡格雷吸收过程中的主要屏障。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">氯吡格雷是一种新型噻吩吡啶类衍生物，口服后，经十二指肠部位吸收。多重耐药基因MDRI（mutidurgre-sistance）或三磷酸腺苷结合盒蛋白B家族成员I（ABCBI）编码的P-糖蛋白（P-gp）是氯吡格雷吸收过程中的主要屏障。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK4244285</td>
+                <td>CYP2C19*2</td>
+                <td>G</td>
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>WK4986893</td>
+                <td>CYP2C19*3</td>
+                <td>G</td>
+                <td>A</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>WK12248560</td>
+                <td>CYP2C19*17</td>
+                <td>C</td>
+                <td>T</td>
+                <td>C</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>SA Scott, K Sangkuhl, EE Gardner, et al. Clinical Pharmacology & Therapeutics 2011;4 accept Chen
+                            Hui, et al. Heart 2011;97:A107 doi:10.1136/heartjnl-2011-300867.316</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">华法林，防止血栓的形成及发展</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">华法林 华法林钠片 ®</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">适用于预防和治疗血栓栓塞性疾病。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">华法林基因位点酶代谢能力正常。请遵医嘱使用合理剂量的华法林。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">1.华法林主要通过抑制维生素K依赖性凝血因子的合成，延长凝血酶原活化时间，达到抗凝的目的
+                <br>2.华法林的维持剂量在不同的种族、群体和个人有明显的差别，剂量过小不能达到满意的抗凝效果，剂量过大会导致致命性出血</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">华法林是香豆素类抗凝剂的一种，在体内有对抗维生素K的作用。可以抑制维生素K参与的凝血因子Ⅱ、Ⅶ、Ⅸ、Ⅹ的在肝脏的合成。对血液中已有的凝血因子 Ⅱ、Ⅶ、Ⅸ、Ⅹ并无抵抗作用。因此，不能作为体外抗凝药使用，体内抗凝也须有活性的凝血因子消耗后才能有效，起效后作用和维持时间亦较长。主要用于防治血栓栓塞性疾病。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">华法林是香豆素类抗凝剂的一种，在体内有对抗维生素K的作用。可以抑制维生素K参与的凝血因子Ⅱ、Ⅶ、Ⅸ、Ⅹ的在肝脏的合成。对血液中已有的凝血因子 Ⅱ、Ⅶ、Ⅸ、Ⅹ并无抵抗作用。因此，不能作为体外抗凝药使用，体内抗凝也须有活性的凝血因子消耗后才能有效，起效后作用和维持时间亦较长。主要用于防治血栓栓塞性疾病。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK4244285</td>
+                <td>CYP2C19*2</td>
+                <td>G</td>
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>WK4986893</td>
+                <td>CYP2C19*3</td>
+                <td>G</td>
+                <td>A</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>WK12248560</td>
+                <td>CYP2C19*17</td>
+                <td>C</td>
+                <td>T</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>WK9923231</td>
+                <td>VKORC1</td>
+                <td>C</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Ross KA1, Bigham AW, Edwards M, Gozdzik A, Suarez-Kurtz G, Parra EJ. Worldwide allele frequency distribution
+                            of four polymorphisms associated with warfarin dose requirements. J Hum Genet. 2010 Sep;55(9):582-9.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">他汀类药物</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">辛伐他汀、阿伐他汀等。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">是首选的降脂药，主要适用于总胆固醇(TC)和低密度脂蛋白胆固醇(LDL-C)升高的患者。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">他汀类药物的降脂疗效正常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">1.他汀类药物可降低冠心病的发病率和死亡率，减慢动脉粥样硬化斑块的发展，甚至使斑块消退，从而打破了冠心病不可逆转的传统观念。
+                <br>2.检测SLCO1B1和ApoE基因的多态性，为他汀类药物的使用和疗效预测提供分子遗传学依据，对他汀类药物的合理应用，提高其使用的有效性和安全性有极大的帮助。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">他汀类药物，即3-羟基-3甲基戊二酰辅酶A（HMG-CoA）还原酶抑制药，是目前最有效的降脂药物，不仅能强效地降低总胆固醇（TC）和低密度脂蛋白（LDL），而且能一定程度上降低三酰甘油(TG)，还能升高高密度脂蛋白(HDL)，所以他汀类药物也可以称为较全面的调脂药。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">他汀类药物，即3-羟基-3甲基戊二酰辅酶A（HMG-CoA）还原酶抑制药，是目前最有效的降脂药物，不仅能强效地降低总胆固醇（TC）和低密度脂蛋白（LDL），而且能一定程度上降低三酰甘油(TG)，还能升高高密度脂蛋白(HDL)，所以他汀类药物也可以称为较全面的调脂药。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK2306283</td>
+                <td>SLCO1B1</td>
+                <td>T</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK4149056</td>
+                <td>SLCO1B1</td>
+                <td>T</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK429358</td>
+                <td>ApoE</td>
+                <td>T</td>
+                <td>C</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>WK7412</td>
+                <td>ApoE</td>
+                <td>C</td>
+                <td>T</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>Khine H, Yuet WC, Adams-Huet B, Ahmad Z. Statin-associated muscle symptoms and SLCO1B1 rs4149056
+                            genotype in patients with familial hypercholesterolemia. Am Heart J. 2016 Sep;179:1-9.</li>
+                        <li>Mega JL, Morrow DA, Brown A, Cannon CP, Sabatine MS. Identification of genetic variants associated
+                            with response to statin therapy. Arterioscler Thromb Vasc Biol. 2009 Sep;29(9):1310-5.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="results pra">
+        <div class="title-1">硝酸甘油</div>
+        <div class="results-item">
+            <div class="label">常见药物</div>
+            <div class="content text">硝酸甘油</div>
+        </div>
+        <div class="results-item">
+            <div class="label">适应症</div>
+            <div class="content text">适用于治疗或预防心绞痛</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测结果</div>
+            <div class="content">
+                <div class="normal-res">正常</div>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">您在人群中的占比</div>
+            <div class="content">图表
+                <br> 图表
+                <br> 图表
+                <br>
+            </div>
+        </div>
+        <div class="results-item">
+            <div class="label">结果说明</div>
+            <div class="content text">硝酸甘油效果正常。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">临床意义</div>
+            <div class="content text">1. 冠心病、心绞痛突然发作时，即把硝酸甘油药片含于舌下，可快速吸收，扩张冠状动脉血管，以增加冠咻动脉血流量及心脏氧气供应量。
+                <br>2.基因突变导致硝酸甘油难以发挥有效作用。故基因有缺陷的患者，不能完全把硝酸甘油片当作救命之举。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">适用于治疗或预防心绞痛，亦可作为血管扩张药治疗充血性心力衰竭。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">药物简介</div>
+            <div class="content text">适用于治疗或预防心绞痛，亦可作为血管扩张药治疗充血性心力衰竭。</div>
+        </div>
+        <div class="results-item">
+            <div class="label">检测位点</div>
+            <div class="content">
+                <div class="icon">
+                    <img src="./images/pro_warning.png">
+                </div>
+                <span>红色指标需特别注意</span>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>检测位点</td>
+                <td>基因</td>
+                <td>野生</td>
+                <td>突变</td>
+                <td>检测结果</td>
+            </tr>
+            <tr>
+                <td>WK671</td>
+                <td>ALDH2</td>
+                <td>A</td>
+                <td>G</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="more" onclick="checkMore(this)">查看更多
+            <img src="./images/see_more.png">
+        </div>
+        <div class="results-item">
+            <div class="label">参考文献</div>
+            <div class="content text">
+                <div class="mui-ellipsis-3">
+                    <ol>
+                        <li>HangoZer susceptibility in relation to aldehyde dehydrogenase-2 genotype, alcohol flushing, and mean
+                            corpuscular volume in Japanese workers. Yokoyama M1, Yokoyama A, Yokoyama T, Funazu K, Hamana
+                            G, Kondo S, Yamashita T, Nakamura H. Alcohol Clin Exp Res. 2005 Jul;29(7):1165-71.</li>
+                    </ol>
+                </div>
+                <div class="inner-btn">...更多</div>
+            </div>
+        </div>
+    </div>
+    <div class="treatment pra">
+        <div class="title">
+            <div class="main">高血压简介</div>
+        </div>
+        <div class="title-1">什么是高血压？</div>
+        <p>
+            高血压（Hypertension）是一种常见的慢性病，也是心脑血管疾病最主要的危险因素，主要并发症包括脑卒中心肌梗死、心力衰竭、慢性肾脏病、糖尿病、血脂异常、高胰岛素血症等。传统意义上的高血压：收缩压>140mmHg或舒张压>90mmHg，具体的类型详见下表：
+        </p>
+        <table class="table-1">
+            <tr class="th">
+                <td>分类</td>
+                <td>收缩压(mmHg)</td>
+                <td>关系</td>
+                <td>舒张压(mmHg)</td>
+                <td>说明</td>
+            </tr>
+            <tr>
+                <td>理想血压</td>
+                <td>
+                    <120</td>
+                        <td>和</td>
+                        <td>
+                            <80</td>
+                                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>正常血压</td>
+                <td>120-129</td>
+                <td>或</td>
+                <td>80-84</td>
+                <td>以较高分类为准</td>
+            </tr>
+            <tr>
+                <td>正常高值</td>
+                <td>130-139</td>
+                <td>或</td>
+                <td>85-89</td>
+                <td>以较高分类为准</td>
+            </tr>
+            <tr>
+                <td>1级高血压</td>
+                <td>140-159</td>
+                <td>或</td>
+                <td>90-99</td>
+                <td>以较高分类为准</td>
+            </tr>
+            <tr>
+                <td>2级高血压</td>
+                <td>160-179</td>
+                <td>或</td>
+                <td>100-109</td>
+                <td>以较高分类为准</td>
+            </tr>
+            <tr>
+                <td>3级高血压</td>
+                <td>≥180</td>
+                <td>或</td>
+                <td>≥110</td>
+                <td>以较高分类为准</td>
+            </tr>
+            <tr>
+                <td>单纯收缩期高血压</td>
+                <td>≥140</td>
+                <td>和</td>
+                <td>
+                    <90</td>
+                        <td>以SBP分类为准</td>
+            </tr>
+        </table>
+        <div class="title-1">高血压流行病学</div>
+        <p>高血压患病率和发病率在不同国家、地区或种族之间有差别，工业化国家较发展中国家高。我国15岁及以上人群高血压患病率为24%，而65岁以上老年人中，有50%的人有高血压。高血压患病率随年龄增长而升高。我国高血压患病率北方高于南方，沿海高于内地，城市高于农村，高原少数民族地区患病率较高。男、女性高血压总体患病率差别不大。</p>
+        图表
+    </div>
+    <div class="treatment pra">
+        <div class="title">
+            <div class="main">相关生化检查</div>
+        </div>
+        <div class="title-1">高血压相关的生化检查</div>
+        <table class="table-1">
+            <tr class="th">
+                <td>常规检查</td>
+                <td>目标值</td>
+            </tr>
+            <tr>
+                <td>血压</td>
+                <td>90-140mmHg（收缩压）
+                    <br>60-90mmHg（舒张压）</td>
+            </tr>
+            <tr>
+                <td>血糖</td>
+                <td>39-61mmol/L</td>
+            </tr>
+            <tr>
+                <td>血清总胆固醇</td>
+                <td>23-57mmol/L</td>
+            </tr>
+            <tr>
+                <td>血清高密度脂蛋白胆固醇</td>
+                <td>08-18mmol/L</td>
+            </tr>
+            <tr>
+                <td>空腹血清甘油三酯</td>
+                <td>05-17mmol/L</td>
+            </tr>
+            <tr>
+                <td>血清尿酸</td>
+                <td>155-428umol/L</td>
+            </tr>
+            <tr>
+                <td>血清肌酐</td>
+                <td>53-136umol/L</td>
+            </tr>
+            <tr>
+                <td>血清钾</td>
+                <td>35-50mmol/L</td>
+            </tr>
+            <tr>
+                <td>血红蛋白及红细胞比容</td>
+                <td>110-150g/l</td>
+            </tr>
+            <tr>
+                <td>心电图</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr class="th">
+                <td>推荐检查</td>
+                <td>目标值</td>
+            </tr>
+            <tr>
+                <td>C反应蛋白</td>
+                <td>≤10mg/L</td>
+            </tr>
+            <tr>
+                <td>尿微量白蛋白</td>
+                <td>0-20mg/L</td>
+            </tr>
+            <tr>
+                <td>尿蛋白定量</td>
+                <td>＜250mg/24h</td>
+            </tr>
+            <tr>
+                <td>超声心动图</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>颈动脉超声</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr class="th">
+                <td>进一步检查</td>
+                <td>目标值</td>
+            </tr>
+            <tr>
+                <td>肾素</td>
+                <td>10-25μg·L-1/h</td>
+            </tr>
+            <tr>
+                <td>醛固酮</td>
+                <td>卧位：1-5ng/dL
+                    <br>立位：5-15ng/dL</td>
+            </tr>
+            <tr>
+                <td>脑功能检查</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>心功能检查</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>肾功能检查</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <div class="title-1">特殊类型高血压</div>
+        <table>
+            <tr>
+                <td style="width: 10%;">肾脏疾病</td>
+                <td style="width: 15%;">怀疑肾脏疾病导致继发性高血压</td>
+                <td>若患者具备以下≥2项因素时，需考虑肾血管性高血压：
+                    <br>•年龄＞55岁或＜30岁的患者突发高血压或高血压恶化；
+                    <br>•腹部血管杂音且应用≥3种药物仍不能控制血压；
+                    <br>•应用ACEI或ARB治疗后血肌酐升高≥30%；
+                    <br>•并存其他动脉粥样硬化性血管疾病（特别是吸烟或有血脂异常者）；
+                    <br>•血压骤升导致反复发作的肺水肿。
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>嗜铬细胞瘤</td>
+                <td>怀疑嗜铬细胞瘤导致继发性高血压</td>
+                <td>下列患者需要筛查嗜铬细胞瘤或副神经节瘤：
+                    <br>•不明原因的血压波动或阵发性增高、或血压持续重度增高（≥180/110mmHg）且常规降压药物治疗效果不佳；
+                    <br>•高血压伴头痛、心悸、大汗、惊恐发作、苍白等提示儿茶酚胺活性增高的症状或体征；
+                    <br>•由β受体阻滞剂、单胺氧化酶抑制剂、排尿、腹压变化、手术或麻醉诱发的高血压；
+                    <br>•发现肾上腺肿物；
+                    <br>•伴有嗜铬细胞瘤易患因素或遗传倾向；生化或影像学检查提示此类疾病。
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>原发性醛固酮增多症</td>
+                <td>怀疑醛固酮增多症导致继发性高血压</td>
+                <td>下列患者需要筛查原发性醛固酮增多症：
+                    <br>•高血压伴无明确原因的低血钾（
+                    <35mmol/L）或利尿剂诱发的显著低血钾(<30mmol/L)；<br>•应用≥3种药物仍不能控制血压；
+                        <br>
+                </td>
+            </tr>
+            <tr>
+                <td>其它类型</td>
+                <td>怀疑甲状腺疾病导致继发性高血压</td>
+                <td>伴甲状腺疾病相关症状</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>怀疑心血管畸形导致继发性高血压</td>
+                <td>伴有先天性血管畸形</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>怀疑大动脉炎导致继发性高血压</td>
+                <td>伴大动脉炎</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="treatment pra">
+        <div class="title">
+            <div class="main">高血压用药</div>
+        </div>
+        <p>高血压是可以预防和控制的疾病。降低高血压患者的血压水平，可明显减少脑卒中及心脏病事件，显著改善患者的生存质量，有效降低疾病带来的痛苦。</p>
+        <div class="title-1">高血压相关药物介绍及优缺点汇总</div>
+        <table>
+            <tr>
+                <td style="width: 50%;">药物类别及原理简介</td>
+                <td style="width: 15%;">常见药物</td>
+                <td>优点</td>
+                <td>缺点</td>
+            </tr>
+            <tr>
+                <td>β受体阻滞剂
+                    <br>•β受体阻滞剂是高血压治疗的一线药物。
+                    <br>•β受体阻滞剂通过对β受体的阻滞作用降低去甲肾上腺素的分泌、抑制肾素分泌、降低心输出量、降低血管中枢紧张度，从而起到降血压作用。</td>
+                <td>美托洛尔、阿替洛尔等</td>
+                <td>降压起效快，强力，还有减慢心率，降低心肌耗氧量，抗心率失常和防猝死的作用</td>
+                <td>可致心动过缓，影响血脂代谢，高血脂病人慎用</td>
+            </tr>
+            <tr>
+                <td>钙离子通道阻滞剂
+                    <br>•二氢吡啶类钙通道受体拮抗剂为我国普和遍使用的治疗高血压的一线药物，但其单一降压有效率仅在50%左右。
+                    <br>•钙离子通道是细胞外钙离子内流的通道。钙离子通道阻滞剂通过阻滞钙离子进入细胞内，引起血管平滑肌松弛，发挥扩张血管降低血压的作用。</td>
+                <td>维拉帕米等</td>
+                <td>降压疗效和幅度较强，不影响糖血脂代谢</td>
+                <td>引起心率加快，面部潮红，头痛，下肢水肿</td>
+            </tr>
+            <tr>
+                <td>血管紧张素转化酶抑制剂（ACEI）
+                    <br>•血管紧张素转化酶抑制剂（ACEI）是高血压治疗的一线药物。疗效肯定而副作用少。
+                    <br>•血管紧张素转化酶可通过调节肾素-血管紧张素-醛固酮系统，影响人体血压的变化。</td>
+                <td>雷米普利、培哚普利、卡托普利等</td>
+                <td colspan="2">品种多，选择余地引起刺激性大，降压效果良好，干咳，高血适用于高血压合并钾症、妊娠、肥胖、糖尿病肾病、肾动脉狭窄心衰、心梗及轻度和严重肾功肾功能不全的病人能不全者禁用</td>
+
+            </tr>
+            <tr>
+                <td>血管紧张素II受体拮抗剂（ARB）
+                    <br>•血管紧张素II受体是高血压治疗的一线药物。疗效肯定而副作用少。
+                    <br>•肾素-血管紧张素-醛固酮系统是人体血管系统的病理生理调节中发挥极为重要的作用，血管紧张素II与受体结合发挥降压作用。</td>
+                <td>氯沙坦等</td>
+                <td>服用方便比ACEI效果更好，作用持久平稳，不引起干咳</td>
+                <td>轻微头痛、头晕，偶有高血钾</td>
+            </tr>
+            <tr>
+                <td>利尿剂
+                    <br>• 利尿剂是高血压治疗的一线药物。
+                    <br>• 利尿剂主要通过影响肾小管的再吸收和分泌，促进体内钠离子和水分的排出从而达到利尿和降压的作用。</td>
+                <td>氢氯噻嗪等</td>
+                <td>价格低，降压作用平稳，缓慢，持续时间长</td>
+                <td>长期使用可致低钾血症，影响血糖、血脂及血尿酸的代谢</td>
+            </tr>
+        </table>
+        <div class="title-1">
+            高血压药物适应症 / 禁忌症选择表
+        </div>
+        图表
+    </div>
+    <div class="treatment pra">
+        <div class="title">
+            <div class="mian">个性推荐</div>
+        </div>
+        <div class="title-1">饮食部分-食物速查表</div>
+        <br>图表
+        <br>
+        <div class="title-1">饮食部分-食谱示例</div>
+        <div class="food-item">
+            <div class="label">
+                <img src="./images/food-1.png">
+            </div>
+            <div class="content">
+                <div class="title-2">空心菜炝玉米</div>
+                降压、平稳血糖
+                <br> 材料：空心菜300 克，玉米粒150 克
+                <br> 调料：盐、干辣椒节、花椒各适量
+            </div>
+        </div>
+        <div class="practice">
+            <div>做法：</div>
+            <div>
+                <div>1、玉米粒洗净，沸水中煮熟；空心菜洗净，下锅焯过捞出切段，备用。</div>
+                <div>2、锅置大火，放入适量植物油，放入干辣椒炸红，下花椒炒香。</div>
+                <div>3、倒入玉米粒、空心菜段炒匀，加盐调味，起锅即可。</div>
+            </div>
+        </div>
+        <div class="food-item">
+            <div class="label">
+                <img src="./images/food-1.png">
+            </div>
+            <div class="content">
+                <div class="title-2">莲藕鸭肉汤</div>
+                预防虚弱、水肿
+                <br> 材料：鸭肉150 克，莲藕100 克
+                <br> 调料：姜片、葱段各适量，盐2 克
+            </div>
+        </div>
+        <div class="practice">
+            <div>做法：</div>
+            <div>
+                <div>1. 鸭肉洗净，斩小块，汆一下；莲藕洗净去掉外皮，切成片。</div>
+                <div>2. 锅置火上，倒入适量清水，然后放入鸭肉块、莲藕片、姜片、葱段，大火烧开，转小火再堡2 小时，最后去掉浮油加盐调味即可。</div>
+            </div>
+        </div>
+        <div class="food-item">
+            <div class="label">
+                <img src="./images/food-1.png">
+            </div>
+            <div class="content">
+                <div class="title-2">山药香菇鸡</div>
+                健脾养胃
+                <br> 材料：山药150 克，鸡肉100 克，鲜香菇4 朵
+                <br> 调料：料酒、酱油、盐、白糖各适
+            </div>
+        </div>
+        <div class="practice">
+            <div>做法：</div>
+            <div>
+                <div>1. 山药洗净去皮，切小块；香菇去蒂，切小块；鸡肉洗净，剁成小块，放入沸水中汆去血水，然后洗净沥干水分。</div>
+                <div>2. 将鸡肉块放入锅内，加入料酒、酱油、盐、白糖和适量清水，并放入香菇块同煮，大火烧沸后改小火继续炖15分钟，加入山药块至熟，收至汤汁稍干。</div>
+            </div>
+        </div>
+        <div class="food-item">
+            <div class="label">
+                <img src="./images/food-1.png">
+            </div>
+            <div class="content">
+                <div class="title-2">山楂粥</div>
+                促进胆固醇排出
+                <br> 材料：山楂25 克，大米100 克
+            </div>
+        </div>
+        <div class="practice">
+            <div>做法：</div>
+            <div>
+                <div>1.山楂洗净，去子和蒂；大米淘洗干净。</div>
+                <div>2.锅置火上，加入适量清水煮开，放入山楂、大米煮沸，改小火熬煮成粥即可。</div>
+            </div>
+        </div>
+        <div class="title-1">运动推荐</div>
+        <table class="table-1">
+            <tr class="th">
+                <td>运动推荐</td>
+                <td>持续时间</td>
+            </tr>
+            <tr>
+                <td>运动时间</td>
+                <td>每周至少5-7次运动
+                    <br>最好坚持每天运动
+                    <br>每次运动时间30分钟，或每日累积30分钟</td>
+            </tr>
+            <tr class="th-1">
+                <td colspan="2">中等强度运动</td>
+            </tr>
+            <tr>
+                <td>运动强度</td>
+                <td>主观感受：心跳加快、微微出汗、感觉有点累
+                    <br>客观感觉：呼吸频率加快、微喘、可以与人交谈
+                    <br>步行速度：每分钟120步左右
+                    <br>运动后10分钟，心率可恢复到正常或接近正常心率（次/分钟）：170-年龄</td>
+            </tr>
+            <tr class="th-1">
+                <td colspan="2">具体措施</td>
+            </tr>
+            <tr>
+                <td>个体化的运动形式</td>
+                <td>根据个人血压调节，考虑个人喜好以便维持</td>
+            </tr>
+            <tr>
+                <td>节律缓慢且动作松弛的项目</td>
+                <td>有氧、阻力、伸展及增强肌力等形式，如快走4000步/小时，游泳骑自行车等</td>
+            </tr>
+            <tr>
+                <td>适宜的运动体验</td>
+                <td>运动后第二天感觉精力充沛、无不适感为宜</td>
+            </tr>
+            <tr>
+                <td>坚持运动</td>
+                <td>循序渐进，贵在坚持</td>
+            </tr>
+            <tr>
+                <td>生活中的体力活动</td>
+                <td>适当分担家务、步行购物，每天步行总数达到或接近1万步为佳</td>
+            </tr>
+            <tr class="th-1">
+                <td colspan="2">注意事项</td>
+            </tr>
+            <tr>
+                <td>避免受伤</td>
+                <td>运动过程中尽量避免运动外伤</td>
+            </tr>
+            <tr>
+                <td>及时就医</td>
+                <td>运动过程中有任何不适，请及时就医</td>
+            </tr>
+            <tr>
+                <td>运动时间</td>
+                <td>避免清晨6-10点的时间，最好选择下午或傍晚进行锻炼</td>
+            </tr>
+            <tr>
+                <td>禁忌运动项目</td>
+                <td>尽量避免短跑或举重等短时间需要爆发力的无氧运动</td>
+            </tr>
+            <tr>
+                <td>血压控制不良者暂时禁止运动</td>
+                <td>安静时血压超过180/110mmHg的患者暂时中止中度及以上运动</td>
+            </tr>
+            <tr class="th-1">
+                <td colspan="2">活动</td>
+            </tr>
+            <tr>
+                <td>静坐、看电视、看书、聊天、写字、玩牌</td>
+                <td>30-40</td>
+            </tr>
+            <tr>
+                <td>编织、缝纫、清洗餐桌、打扫房间、坐着跟孩子玩</td>
+                <td>40-70</td>
+            </tr>
+            <tr>
+                <td>散步（1600 米/ 小时）、慢速跳舞、体操、骑车、站着跟孩子玩</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>步行上学或上班、乒乓球游泳（20分钟/ 小时）</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>羽毛球、排球、太极拳、走着或跑着跟孩子玩</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>快步走1000-2000 米/ 小时</td>
+                <td>175</td>
+            </tr>
+            <tr>
+                <td>擦地板、快速跳舞、中等强度网球</td>
+                <td>180</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="links pra">
+        <div class="title">
+            <div class="icon">
+                <img src="./images/more_test.png">
+            </div>
+            <div class="main">更多基因检测：</div>
+        </div>
+        <div class="classification">
+            <div class="name">儿童系列</div>
+        </div>
+        <div class="classification-wrap">
+            <div class="item">
+                <div class="content">
+                    <div class="mian">遗传性近视易感基因检测</div>
+                    <div class="sub">MyopiaWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">遗传性耳聋基因检测</div>
+                    <div class="sub">HearingWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">儿童安全用药基因检测</div>
+                    <div class="sub">KidsWK®Drug</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">儿童铂金套餐</div>
+                    <div class="sub">GenomekidsWK®</div>
+                </div>
+            </div>
+        </div>
+        <div class="classification">
+            <div class="name">遗传特征系列</div>
+        </div>
+        <div class="classification-wrap">
+            <div class="item">
+                <div class="content">
+                    <div class="mian">酒精代谢基因检测</div>
+                    <div class="sub">Alcohol WK®</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">叶酸利用能力基因检测</div>
+                    <div class="sub">Folate WK®</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">遗传特征基因检测</div>
+                    <div class="sub">Hereditary FeatureWK®</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">皮肤健康基因检测</div>
+                    <div class="sub">SkinWK®</div>
+                </div>
+            </div>
+        </div>
+        <div class="classification">
+            <div class="name">肿瘤系列</div>
+        </div>
+        <div class="classification-wrap">
+            <div class="item">
+                <div class="content">
+                    <div class="mian">肝癌易感基因检测</div>
+                    <div class="sub">LiverWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">肺癌易感基因检测</div>
+                    <div class="sub">LungWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">胃癌易感基因检测</div>
+                    <div class="sub">GastricWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">结肠直肠癌易感基因检测</div>
+                    <div class="sub">ColorectalWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">女性三项肿瘤易感基因检测</div>
+                    <div class="sub">FemaleTumorsWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">肿瘤易感基因检测</div>
+                    <div class="sub">OncoFemaleKW®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">肿瘤易感基因检测</div>
+                    <div class="sub">OncoMaleKW®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">成人铂金套餐</div>
+                    <div class="sub">GenomeWK®Risk</div>
+                </div>
+            </div>
+        </div>
+        <div class="classification">
+            <div class="name">慢性病系列</div>
+        </div>
+        <div class="classification-wrap">
+            <div class="item">
+                <div class="content">
+                    <div class="mian">心血管个性化用药基因检测</div>
+                    <div class="sub">CardioWK®Drug</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">心血管疾病易感基因检测</div>
+                    <div class="sub">CardioWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">糖尿病易感基因检测</div>
+                    <div class="sub">DiabeteWK®Drug</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">糖尿病个性化用药基因检测</div>
+                    <div class="sub">DiabeteWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">阿尔茨海默病易感基因检测</div>
+                    <div class="sub">AlzheimerWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">帕金森易感基因检测</div>
+                    <div class="sub">ParkinsonWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">骨质疏松易感基因检测</div>
+                    <div class="sub">OsteoporosisWK®Risk</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="mian">成人安全用药</div>
+                    <div class="sub">AdultsWK®Drug</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 20
+        });
+        $(function () {
+            var table = $('.results table')
+            $(table).each(function () {
+                var trList = $(this).find("tr")
+                if (trList.length > 5) {
+                    $(this).next().show()
+                    for (let index = 0; index < trList.length; index++) {
+                        const element = trList[index];
+                        if (index > 4) $(element).hide();
+                    }
+                } else {
+                    $(this).next().hide()
+                }
+            })
+
+            $(".inner-btn").click(function () {
+                $(this).prev().removeClass('mui-ellipsis-3');
+                $(this).hide();
+            })
+            $("a").click(function (e) {
+                // e.stopPropagation();
+                e.preventDefault()
+            })
+            $(".header-item").click(function (e) {
+                console.log($(this).attr("to"));
+                console.log(e);
+                var toName = $(this).attr("to")
+                $(this).addClass("active").siblings().each(function () {
+                    $(this).removeClass("active")
+                })
+                $(".content-item").each(function () {
+                    if ($(this).attr("at") == toName) {
+                        $(this).show()
+                    } else {
+                        $(this).hide()
+                    }
+                })
+
+            })
+        })
+
+        function checkMore(obj) {
+            $(obj).hide()
+            var table = $(obj).prev("table")
+            var trList = $(table).find("tr")
+            for (let index = 0; index < trList.length; index++) {
+                const element = trList[index];
+                $(element).show();
+            }
+        }
+    </script>
+</body>
+
+</html>

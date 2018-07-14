@@ -771,7 +771,8 @@ td {
     background-color: #f7f7f7;
     color: #999999;
 }
-.treatment .table-1 .th td{
+
+.treatment .table-1 .th td {
     background-color: #ecf4fe;
     color: #479cfc;
     border: .01rem solid #fff;
@@ -781,6 +782,7 @@ td {
     border: .01rem solid #fff;
     text-align: center;
 }
+
 .treatment .table-1.text-left td {
     text-align: left;
 }
@@ -793,25 +795,64 @@ td {
 .treatment .table-1 .th-1 td {
     border: .01rem solid #479cfc;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.flex-item{
-    flex:1;
+
+.flex-item {
+    flex: 1;
 }
-.flex-item:not(:first-child){
+
+.flex-item:not(:first-child) {
     margin-left: .15rem;
 }
-.card{
+
+.card {
     padding: .08rem;
     background-color: #f7f7f7;
 }
-.card img{
+
+.card img {
     width: 100%;
 }
-.card .text{
+
+.card .text {
     margin-top: .1rem;
     color: #999999;
     font-size: .22rem;
     height: 1.25rem;
+}
+.food-item {
+    position: relative;
+    padding: 0 0 0 1.66rem;
+    margin-top: .15rem;
+}
+.food-item .label {
+    margin: .25rem 0;
+    position: absolute;
+    left: 0;
+    top: .04rem;
+    color: #479cfc;
+    background-color: #ecf4fe;
+    font-size: .26rem;
+    line-height: .3rem;
+    width: 1.5rem;
+    box-sizing: border-box;
+}
+.food-item .label img{
+    width: 100%;
+}
+.food-item  .content {
+    padding: .15rem .18rem;
+    font-size: .26rem;
+    color: #999;
+}
+.practice{
+    display: flex;
+    color: #999;
+}
+.practice>div:first-child{
+    width: 1.8rem;
+    
 }
