@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/main.css?v=1.2">
     <script src="./js/lib-flexible.js"></script>
     <script src="./js/jquery.js"></script>
+    <script src="./js/echarts.simple.min.js"></script>
 </head>
 
 <body>
@@ -253,11 +254,7 @@
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
             <div class="content">
-                <!-- TODO: 图表 -->
-                图表
-                <br> 图表
-                <br> 图表
-                <br>
+                <div class="pie" data-data="[{value: 10.91, name: '差'},{ value: 8.62, name: '好' },{value: 80.47, name: '正常'}]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -359,7 +356,8 @@
             <div class="content text">
                 <div class="mui-ellipsis-3">
                     <ol>
-                        <li>Wang C1, Wang S1, Chen H1, Lu D1. Establishment of a Gene Detection  System for Hotspot Mutations of Hearing Loss. Biomed Res Int. 2018 Mar 7;2018:6828306</li>
+                        <li>Wang C1, Wang S1, Chen H1, Lu D1. Establishment of a Gene Detection System for Hotspot Mutations
+                            of Hearing Loss. Biomed Res Int. 2018 Mar 7;2018:6828306</li>
                     </ol>
                 </div>
                 <div class="inner-btn">...更多</div>
@@ -1650,7 +1648,7 @@
         </div>
     </div>
 
-    
+
     <div class="links pra">
         <div class="title">
             <div class="icon">
@@ -1879,6 +1877,75 @@
                 $(element).show();
             }
         }
+    </script>
+    <script>
+        var pies = $(".pie")
+        pies.each(function (e) {
+            var pieChart = echarts.init($(this).get(0))
+            var dataStr = $(this).data('data')
+            var data = eval(dataStr)
+            data.forEach((item, index) => {
+                if (index % 3 == 0) {
+                    item.itemStyle = {
+                        color: '#fbad47'
+                    }
+
+                } else if (index % 3 == 1) {
+                    item.itemStyle = {
+                        color: '#eeeeee'
+                    }
+                } else {
+                    item.itemStyle = {
+                        color: '#e2e2e2'
+                    }
+                }
+
+            });
+
+            var option = {
+                series: [
+                    {
+                        name: '访问来源',
+                        type: 'pie',
+                        radius: '55%',
+                        center: ['50%', '60%'],
+                        data: [{ value: 234, name: '联盟广告' }],
+                    }
+                ]
+            }
+            option.series[0].data = data
+            setTimeout(function () {
+                pieChart.setOption(option);
+            }, 500)
+
+        })
+        // var myChart = echarts.init(document.getElementById('main'));
+        // var option = {
+        //     series: [
+        //         {
+        //             name: '访问来源',
+        //             type: 'pie',
+        //             radius: '55%',
+        //             center: ['50%', '60%'],
+        //             data: [
+        //                 {
+        //                     value: 335, name: '直接访问', itemStyle: {
+        //                         color: '#c23531'
+        //                     }
+        //                 },
+        //                 {
+        //                     value: 310, name: '邮件营销', itemStyle: {
+        //                         color: '#c23531'
+        //                     }
+        //                 },
+        //                 { value: 234, name: '联盟广告' },
+        //                 { value: 135, name: '视频广告' },
+        //                 { value: 1548, name: '搜索引擎' }
+        //             ],
+        //         }
+        //     ]
+        // }
+        // myChart.setOption(option);
     </script>
 </body>
 
