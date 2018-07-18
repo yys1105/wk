@@ -2513,52 +2513,52 @@
         }
     </script>
     <script>
-            var pies = $(".pie")
-            pies.each(function (e) {
-                var pieChart = echarts.init($(this).get(0))
-                var dataStr = $(this).data('data')
-                var data = eval(dataStr)
-                data.forEach((item, index) => {
-                    if (index % 4 == 0) {
-                        item.itemStyle = {
-                            color: '#b9b8b8'
-                        }
-    
-                    } else if (index % 4 == 1) {
-                        item.itemStyle = {
-                            color: '#999'
-                        }
-                    } else if (index % 4 == 1) {
-                        item.itemStyle = {
-                            color: '#656565'
-                        }
-                    } else {
-                        item.itemStyle = {
-                            color: '#e2e2e2'
-                        }
+        var pies = $(".pie")
+        pies.each(function (e) {
+            var pieChart = echarts.init($(this).get(0))
+            var dataStr = $(this).data('data')
+            var data = eval(dataStr)
+            data.forEach((item, index) => {
+                if (index % 4 == 0) {
+                    item.itemStyle = {
+                        color: '#37a2da'
                     }
-    
-                });
-    
-                var option = {
-                    series: [{
-                        name: '访问来源',
-                        type: 'pie',
-                        radius: '55%',
-                        center: ['50%', '60%'],
-                        data: [{
-                            value: 234,
-                            name: '联盟广告'
-                        }],
-                    }]
+
+                } else if (index % 4 == 1) {
+                    item.itemStyle = {
+                        color: '#9fe6b8'
+                    }
+                } else if (index % 4 == 1) {
+                    item.itemStyle = {
+                        color: '#ffdb5c'
+                    }
+                } else {
+                    item.itemStyle = {
+                        color: '#ff9f7f'
+                    }
                 }
-                option.series[0].data = data
-                setTimeout(function () {
-                    pieChart.setOption(option);
-                }, 500)
-    
-            })
-        </script>
+
+            });
+
+            var option = {
+                series: [{
+                    name: '访问来源',
+                    type: 'pie',
+                    radius: '55%',
+                    center: ['50%', '60%'],
+                    data: [{
+                        value: 234,
+                        name: '联盟广告'
+                    }],
+                }]
+            }
+            option.series[0].data = data
+            setTimeout(function () {
+                pieChart.setOption(option);
+            }, 500)
+
+        })
+    </script>
 </body>
 
 </html>

@@ -206,7 +206,7 @@
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
             <div class="content">
-                    <div class="pie" data-data="[{value: 32.30, name: '差(32.30%)'},{ value: 53.40, name: '正常(53.40%)' },{ value: 14.30, name: '好 (14.30%)' }]"></div>
+                <div class="pie" data-data="[{value: 32.30, name: '差(32.30%)'},{ value: 53.40, name: '正常(53.40%)' },{ value: 14.30, name: '好 (14.30%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -297,7 +297,7 @@
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
             <div class="content">
-                    <div class="pie" data-data="[{value: 22.60, name: '差(22.60%)'},{ value: 74.60, name: '正常(74.60%)' },{ value: 2.80, name: '好 (2.80%)' }]"></div>
+                <div class="pie" data-data="[{value: 22.60, name: '差(22.60%)'},{ value: 74.60, name: '正常(74.60%)' },{ value: 2.80, name: '好 (2.80%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -390,7 +390,7 @@
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
             <div class="content">
-                    <div class="pie" data-data="[{value: 87.10, name: '正常 (87.10%)'},{ value:12.90, name: '好 (12.90%)' }]"></div>
+                <div class="pie" data-data="[{value: 87.10, name: '正常 (87.10%)'},{ value:12.90, name: '好 (12.90%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -470,7 +470,7 @@
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
             <div class="content">
-                    <div class="pie" data-data="[{value: 74.60, name: '正常 (74.60%)'},{ value:4.80, name: '好 (4.80%)' },{ value:20.60, name: '差 (20.60%)' }]"></div>
+                <div class="pie" data-data="[{value: 74.60, name: '正常 (74.60%)'},{ value:4.80, name: '好 (4.80%)' },{ value:20.60, name: '差 (20.60%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -559,7 +559,7 @@
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
             <div class="content">
-                    <div class="pie" data-data="[{value: 47.30, name: '正常 (47.30%)'},{ value:11.70, name: '好 (11.70%)' },{ value:41.00, name: '差 (41.00%)' }]"></div>
+                <div class="pie" data-data="[{value: 47.30, name: '正常 (47.30%)'},{ value:11.70, name: '好 (11.70%)' },{ value:41.00, name: '差 (41.00%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -1241,52 +1241,52 @@
         }
     </script>
     <script>
-            var pies = $(".pie")
-            pies.each(function (e) {
-                var pieChart = echarts.init($(this).get(0))
-                var dataStr = $(this).data('data')
-                var data = eval(dataStr)
-                data.forEach((item, index) => {
-                    if (index % 4 == 0) {
-                        item.itemStyle = {
-                            color: '#b9b8b8'
-                        }
-    
-                    } else if (index % 4 == 1) {
-                        item.itemStyle = {
-                            color: '#999'
-                        }
-                    } else if (index % 4 == 1) {
-                        item.itemStyle = {
-                            color: '#656565'
-                        }
-                    } else {
-                        item.itemStyle = {
-                            color: '#e2e2e2'
-                        }
+        var pies = $(".pie")
+        pies.each(function (e) {
+            var pieChart = echarts.init($(this).get(0))
+            var dataStr = $(this).data('data')
+            var data = eval(dataStr)
+            data.forEach((item, index) => {
+                if (index % 4 == 0) {
+                    item.itemStyle = {
+                        color: '#37a2da'
                     }
-    
-                });
-    
-                var option = {
-                    series: [{
-                        name: '访问来源',
-                        type: 'pie',
-                        radius: '55%',
-                        center: ['50%', '60%'],
-                        data: [{
-                            value: 234,
-                            name: '联盟广告'
-                        }],
-                    }]
+
+                } else if (index % 4 == 1) {
+                    item.itemStyle = {
+                        color: '#9fe6b8'
+                    }
+                } else if (index % 4 == 1) {
+                    item.itemStyle = {
+                        color: '#ffdb5c'
+                    }
+                } else {
+                    item.itemStyle = {
+                        color: '#ff9f7f'
+                    }
                 }
-                option.series[0].data = data
-                setTimeout(function () {
-                    pieChart.setOption(option);
-                }, 500)
-    
-            })
-        </script>
+
+            });
+
+            var option = {
+                series: [{
+                    name: '访问来源',
+                    type: 'pie',
+                    radius: '55%',
+                    center: ['50%', '60%'],
+                    data: [{
+                        value: 234,
+                        name: '联盟广告'
+                    }],
+                }]
+            }
+            option.series[0].data = data
+            setTimeout(function () {
+                pieChart.setOption(option);
+            }, 500)
+
+        })
+    </script>
 </body>
 
 </html>
