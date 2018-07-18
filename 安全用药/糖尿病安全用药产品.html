@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/main.css?v=1.2">
     <script src="./js/lib-flexible.js"></script>
     <script src="./js/jquery.js"></script>
+    <script src="./js/echarts.simple.min.js"></script>
 </head>
 
 <body>
@@ -204,10 +205,8 @@
         </div>
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
-            <div class="content">图表
-                <br> 图表
-                <br> 图表
-                <br>
+            <div class="content">
+                    <div class="pie" data-data="[{value: 32.30, name: '差(32.30%)'},{ value: 53.40, name: '正常(53.40%)' },{ value: 14.30, name: '好 (14.30%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -297,10 +296,8 @@
         </div>
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
-            <div class="content">图表
-                <br> 图表
-                <br> 图表
-                <br>
+            <div class="content">
+                    <div class="pie" data-data="[{value: 22.60, name: '差(22.60%)'},{ value: 74.60, name: '正常(74.60%)' },{ value: 2.80, name: '好 (2.80%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -392,10 +389,8 @@
         </div>
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
-            <div class="content">图表
-                <br> 图表
-                <br> 图表
-                <br>
+            <div class="content">
+                    <div class="pie" data-data="[{value: 87.10, name: '正常 (87.10%)'},{ value:12.90, name: '好 (12.90%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -474,10 +469,8 @@
         </div>
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
-            <div class="content">图表
-                <br> 图表
-                <br> 图表
-                <br>
+            <div class="content">
+                    <div class="pie" data-data="[{value: 74.60, name: '正常 (74.60%)'},{ value:4.80, name: '好 (4.80%)' },{ value:20.60, name: '差 (20.60%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -565,10 +558,8 @@
         </div>
         <div class="results-item">
             <div class="label">您在人群中的占比</div>
-            <div class="content">图表
-                <br> 图表
-                <br> 图表
-                <br>
+            <div class="content">
+                    <div class="pie" data-data="[{value: 47.30, name: '正常 (47.30%)'},{ value:11.70, name: '好 (11.70%)' },{ value:41.00, name: '差 (41.00%)' }]"></div>
             </div>
         </div>
         <div class="results-item">
@@ -781,7 +772,7 @@
             </div>
             <div class="flex-item">
                 <div class="table-name">糖化血红蛋白（HbA1c）与平均血糖关系对照表</div>
-                图表
+                <img style="width: 100%;" src="./images/tu_hbac.jpg">
             </div>
         </div>
 
@@ -790,7 +781,7 @@
     <div class="results pra">
         <div class="title-1">2 型糖尿病的治疗途径</div>
         <p>生活方式干预是 2 型糖尿病的基础治疗措施，应贯穿于糖尿病治疗的始终。如果单纯生活方式不能使血糖控制达标，应开始药物治疗。2 型糖尿病药物治疗分为一线治疗、二线治疗、三线治疗和四线治疗。首选一线治疗方案，如有禁忌证依次进行选择，具体用药方案请谨遵医嘱。</p>
-        图表
+        <img style="width: 100%;" src="./images/treatment_route.jpg">
     </div>
 
     <div class="results pra">
@@ -799,7 +790,7 @@
         </div>
         <div class="title-1">营养治疗总则</div>
         <p>糖尿病及糖尿病前期患者均需要接受个体化医学营养治疗，由熟悉糖尿病治疗的营养师或综合管理团队（包括糖尿病教育者）指导下完成。应在评估患者营养状况的情况下，设定合理的质量目标，控制总能量的摄入，合理、均衡分配各种营养素达到患者的代谢控制目标，并尽可能满足个体饮食喜好。针对超重或肥胖者推荐适度减重，配合体育锻炼和行为改变，有助于维持减重效果。</p>
-        <div class="flex">
+        <!-- <div class="flex">
             <div class="flex-item">
                 <div class="card">
                     <img src="" alt="">
@@ -854,7 +845,8 @@
                     <div class="text">注重自我管理，定期接受个体化营养指导。</div>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <img style="width: 100%;" src="./images/dietary_guide.jpg" alt="">
     </div>
 
     <div class="results pra">
@@ -1248,6 +1240,53 @@
             }
         }
     </script>
+    <script>
+            var pies = $(".pie")
+            pies.each(function (e) {
+                var pieChart = echarts.init($(this).get(0))
+                var dataStr = $(this).data('data')
+                var data = eval(dataStr)
+                data.forEach((item, index) => {
+                    if (index % 4 == 0) {
+                        item.itemStyle = {
+                            color: '#b9b8b8'
+                        }
+    
+                    } else if (index % 4 == 1) {
+                        item.itemStyle = {
+                            color: '#999'
+                        }
+                    } else if (index % 4 == 1) {
+                        item.itemStyle = {
+                            color: '#656565'
+                        }
+                    } else {
+                        item.itemStyle = {
+                            color: '#e2e2e2'
+                        }
+                    }
+    
+                });
+    
+                var option = {
+                    series: [{
+                        name: '访问来源',
+                        type: 'pie',
+                        radius: '55%',
+                        center: ['50%', '60%'],
+                        data: [{
+                            value: 234,
+                            name: '联盟广告'
+                        }],
+                    }]
+                }
+                option.series[0].data = data
+                setTimeout(function () {
+                    pieChart.setOption(option);
+                }, 500)
+    
+            })
+        </script>
 </body>
 
 </html>
