@@ -454,16 +454,18 @@ body {
 .classification-wrap{
     display: flex;
     flex-wrap:wrap;
-    justify-content:space-around;
+    /* justify-content:space-around; */
     margin-bottom: .4rem;
+    margin-left: -.2rem;
+    margin-right: -.2rem;
 }
 .classification-wrap .item{
     width: 50%;
-    height: .9rem;
+    /* height: .9rem; */
 }
 .classification-wrap .item .content{
-    width: 3.2rem;
-    margin: .2rem auto;
+    width: 3.5rem;
+    margin: .1rem auto;
     padding: .15rem;
     box-sizing: border-box;
     background-color: #f7f7f7;
