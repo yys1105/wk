@@ -38,3 +38,7 @@
 - [心血管安全用药产品](https://yys1105.github.io/wk/安全用药/心血管安全用药产品.html)
 - [成人安全用药产品V6](https://yys1105.github.io/wk/安全用药/成人安全用药产品V6.html)
 - [糖尿病安全用药产品](https://yys1105.github.io/wk/安全用药/糖尿病安全用药产品.html)
+
+- 新增:
+
+- [遗传近视易感基因](https://yys1105.github.io/wk/遗传/遗传近视易感基因.html)
